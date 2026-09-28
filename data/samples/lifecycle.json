@@ -1,0 +1,325 @@
+{
+  "fixture_version": 1,
+  "description": "按顺序消费单个事件快照，不能把所有快照合并成 events。每步保存两种模式的发布历史，下一步继承。",
+  "steps": [
+    {
+      "name": "initial",
+      "event": {
+        "id": "93fe0138-06fd-4bcd-8ff6-f04532cdeb87",
+        "category": "anime",
+        "event_type": "episode_airing",
+        "title": "[虚构测试] anime-episode-2",
+        "description": "[虚构测试] 周五 25:30 日本首播；即周六 01:30 JST / 00:30 北京时间。",
+        "status": "confirmed",
+        "schedule_state": "scheduled",
+        "time_kind": "datetime",
+        "start": "2030-01-12T01:30:00+09:00",
+        "end": null,
+        "timezone": "Asia/Tokyo",
+        "url": "https://example.invalid/calendar/anime-episode-2",
+        "sources": [
+          {
+            "provider": "sample-manual",
+            "source_id": "anime-episode-2",
+            "url": "https://example.invalid/calendar/anime-episode-2",
+            "checked_at": "2030-01-01T00:00:00Z",
+            "authority": "manual"
+          }
+        ],
+        "revision": 0,
+        "created_at": "2030-01-01T00:00:00Z",
+        "updated_at": "2030-01-01T00:00:00Z",
+        "anime": {
+          "series_id": "sample:anime-a",
+          "episode_id": "2",
+          "episode_label": "第 2 集",
+          "channel": "sample-jp-first"
+        }
+      },
+      "expected": {
+        "uid": "93fe0138-06fd-4bcd-8ff6-f04532cdeb87@calendar.yuashie.cn",
+        "sequence": 0,
+        "status": "CONFIRMED",
+        "start": {
+          "value_type": "DATE",
+          "dtstart": "20300112",
+          "dtend": "20300113"
+        },
+        "span": {
+          "value_type": "DATE-TIME",
+          "dtstart": "20300111T163000Z",
+          "dtend": null
+        },
+        "last_modified": "2030-01-01T00:00:00Z",
+        "dtstamp": "2030-01-01T00:00:00Z",
+        "use_previous_published_time": false
+      }
+    },
+    {
+      "name": "rescheduled",
+      "event": {
+        "id": "93fe0138-06fd-4bcd-8ff6-f04532cdeb87",
+        "category": "anime",
+        "event_type": "episode_airing",
+        "title": "[虚构测试] anime-episode-2",
+        "description": "[虚构测试] 周五 25:30 日本首播；即周六 01:30 JST / 00:30 北京时间。",
+        "status": "confirmed",
+        "schedule_state": "scheduled",
+        "time_kind": "datetime",
+        "start": "2030-01-19T01:30:00+09:00",
+        "end": null,
+        "timezone": "Asia/Tokyo",
+        "url": "https://example.invalid/calendar/anime-episode-2",
+        "sources": [
+          {
+            "provider": "sample-manual",
+            "source_id": "anime-episode-2",
+            "url": "https://example.invalid/calendar/anime-episode-2",
+            "checked_at": "2030-01-02T00:00:00Z",
+            "authority": "manual"
+          }
+        ],
+        "revision": 1,
+        "created_at": "2030-01-01T00:00:00Z",
+        "updated_at": "2030-01-02T00:00:00Z",
+        "anime": {
+          "series_id": "sample:anime-a",
+          "episode_id": "2",
+          "episode_label": "第 2 集",
+          "channel": "sample-jp-first"
+        }
+      },
+      "expected": {
+        "uid": "93fe0138-06fd-4bcd-8ff6-f04532cdeb87@calendar.yuashie.cn",
+        "sequence": 1,
+        "status": "CONFIRMED",
+        "start": {
+          "value_type": "DATE",
+          "dtstart": "20300119",
+          "dtend": "20300120"
+        },
+        "span": {
+          "value_type": "DATE-TIME",
+          "dtstart": "20300118T163000Z",
+          "dtend": null
+        },
+        "last_modified": "2030-01-02T00:00:00Z",
+        "dtstamp": "2030-01-02T00:00:00Z",
+        "use_previous_published_time": false
+      }
+    },
+    {
+      "name": "postponed-tbd",
+      "event": {
+        "id": "93fe0138-06fd-4bcd-8ff6-f04532cdeb87",
+        "category": "anime",
+        "event_type": "episode_airing",
+        "title": "[虚构测试] anime-episode-2",
+        "description": "[虚构测试] 周五 25:30 日本首播；即周六 01:30 JST / 00:30 北京时间。",
+        "status": "tentative",
+        "schedule_state": "tbd",
+        "time_kind": "unknown",
+        "start": null,
+        "end": null,
+        "timezone": "Asia/Tokyo",
+        "url": "https://example.invalid/calendar/anime-episode-2",
+        "sources": [
+          {
+            "provider": "sample-manual",
+            "source_id": "anime-episode-2",
+            "url": "https://example.invalid/calendar/anime-episode-2",
+            "checked_at": "2030-01-03T00:00:00Z",
+            "authority": "manual"
+          }
+        ],
+        "revision": 2,
+        "created_at": "2030-01-01T00:00:00Z",
+        "updated_at": "2030-01-03T00:00:00Z",
+        "anime": {
+          "series_id": "sample:anime-a",
+          "episode_id": "2",
+          "episode_label": "第 2 集",
+          "channel": "sample-jp-first"
+        },
+        "date_hint": "延期，时间待定"
+      },
+      "expected": {
+        "uid": "93fe0138-06fd-4bcd-8ff6-f04532cdeb87@calendar.yuashie.cn",
+        "sequence": 2,
+        "status": "CANCELLED",
+        "start": {
+          "value_type": "DATE",
+          "dtstart": "20300119",
+          "dtend": "20300120"
+        },
+        "span": {
+          "value_type": "DATE-TIME",
+          "dtstart": "20300118T163000Z",
+          "dtend": null
+        },
+        "last_modified": "2030-01-03T00:00:00Z",
+        "dtstamp": "2030-01-03T00:00:00Z",
+        "use_previous_published_time": true
+      }
+    },
+    {
+      "name": "restored",
+      "event": {
+        "id": "93fe0138-06fd-4bcd-8ff6-f04532cdeb87",
+        "category": "anime",
+        "event_type": "episode_airing",
+        "title": "[虚构测试] anime-episode-2",
+        "description": "[虚构测试] 周五 25:30 日本首播；即周六 01:30 JST / 00:30 北京时间。",
+        "status": "confirmed",
+        "schedule_state": "scheduled",
+        "time_kind": "datetime",
+        "start": "2030-01-26T01:30:00+09:00",
+        "end": null,
+        "timezone": "Asia/Tokyo",
+        "url": "https://example.invalid/calendar/anime-episode-2",
+        "sources": [
+          {
+            "provider": "sample-manual",
+            "source_id": "anime-episode-2",
+            "url": "https://example.invalid/calendar/anime-episode-2",
+            "checked_at": "2030-01-04T00:00:00Z",
+            "authority": "manual"
+          }
+        ],
+        "revision": 3,
+        "created_at": "2030-01-01T00:00:00Z",
+        "updated_at": "2030-01-04T00:00:00Z",
+        "anime": {
+          "series_id": "sample:anime-a",
+          "episode_id": "2",
+          "episode_label": "第 2 集",
+          "channel": "sample-jp-first"
+        }
+      },
+      "expected": {
+        "uid": "93fe0138-06fd-4bcd-8ff6-f04532cdeb87@calendar.yuashie.cn",
+        "sequence": 3,
+        "status": "CONFIRMED",
+        "start": {
+          "value_type": "DATE",
+          "dtstart": "20300126",
+          "dtend": "20300127"
+        },
+        "span": {
+          "value_type": "DATE-TIME",
+          "dtstart": "20300125T163000Z",
+          "dtend": null
+        },
+        "last_modified": "2030-01-04T00:00:00Z",
+        "dtstamp": "2030-01-04T00:00:00Z",
+        "use_previous_published_time": false
+      }
+    },
+    {
+      "name": "cancelled",
+      "event": {
+        "id": "93fe0138-06fd-4bcd-8ff6-f04532cdeb87",
+        "category": "anime",
+        "event_type": "episode_airing",
+        "title": "[虚构测试] anime-episode-2",
+        "description": "[虚构测试] 周五 25:30 日本首播；即周六 01:30 JST / 00:30 北京时间。",
+        "status": "cancelled",
+        "schedule_state": "scheduled",
+        "time_kind": "datetime",
+        "start": "2030-01-26T01:30:00+09:00",
+        "end": null,
+        "timezone": "Asia/Tokyo",
+        "url": "https://example.invalid/calendar/anime-episode-2",
+        "sources": [
+          {
+            "provider": "sample-manual",
+            "source_id": "anime-episode-2",
+            "url": "https://example.invalid/calendar/anime-episode-2",
+            "checked_at": "2030-01-05T00:00:00Z",
+            "authority": "manual"
+          }
+        ],
+        "revision": 4,
+        "created_at": "2030-01-01T00:00:00Z",
+        "updated_at": "2030-01-05T00:00:00Z",
+        "anime": {
+          "series_id": "sample:anime-a",
+          "episode_id": "2",
+          "episode_label": "第 2 集",
+          "channel": "sample-jp-first"
+        }
+      },
+      "expected": {
+        "uid": "93fe0138-06fd-4bcd-8ff6-f04532cdeb87@calendar.yuashie.cn",
+        "sequence": 4,
+        "status": "CANCELLED",
+        "start": {
+          "value_type": "DATE",
+          "dtstart": "20300126",
+          "dtend": "20300127"
+        },
+        "span": {
+          "value_type": "DATE-TIME",
+          "dtstart": "20300125T163000Z",
+          "dtend": null
+        },
+        "last_modified": "2030-01-05T00:00:00Z",
+        "dtstamp": "2030-01-05T00:00:00Z",
+        "use_previous_published_time": false
+      }
+    },
+    {
+      "name": "checked-only",
+      "event": {
+        "id": "93fe0138-06fd-4bcd-8ff6-f04532cdeb87",
+        "category": "anime",
+        "event_type": "episode_airing",
+        "title": "[虚构测试] anime-episode-2",
+        "description": "[虚构测试] 周五 25:30 日本首播；即周六 01:30 JST / 00:30 北京时间。",
+        "status": "cancelled",
+        "schedule_state": "scheduled",
+        "time_kind": "datetime",
+        "start": "2030-01-26T01:30:00+09:00",
+        "end": null,
+        "timezone": "Asia/Tokyo",
+        "url": "https://example.invalid/calendar/anime-episode-2",
+        "sources": [
+          {
+            "provider": "sample-manual",
+            "source_id": "anime-episode-2",
+            "url": "https://example.invalid/calendar/anime-episode-2",
+            "checked_at": "2030-01-06T00:00:00Z",
+            "authority": "manual"
+          }
+        ],
+        "revision": 4,
+        "created_at": "2030-01-01T00:00:00Z",
+        "updated_at": "2030-01-05T00:00:00Z",
+        "anime": {
+          "series_id": "sample:anime-a",
+          "episode_id": "2",
+          "episode_label": "第 2 集",
+          "channel": "sample-jp-first"
+        }
+      },
+      "expected": {
+        "uid": "93fe0138-06fd-4bcd-8ff6-f04532cdeb87@calendar.yuashie.cn",
+        "sequence": 4,
+        "status": "CANCELLED",
+        "start": {
+          "value_type": "DATE",
+          "dtstart": "20300126",
+          "dtend": "20300127"
+        },
+        "span": {
+          "value_type": "DATE-TIME",
+          "dtstart": "20300125T163000Z",
+          "dtend": null
+        },
+        "last_modified": "2030-01-05T00:00:00Z",
+        "dtstamp": "2030-01-05T00:00:00Z",
+        "use_previous_published_time": false
+      }
+    }
+  ]
+}
