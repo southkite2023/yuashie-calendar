@@ -1,0 +1,209 @@
+{
+  "fixture_version": 1,
+  "description": "手工列出的字段级预期；不是可导入日历。dtend=null 表示必须省略 DTEND。",
+  "event_count": 12,
+  "exported_per_mode": 11,
+  "feed_counts_per_mode": {
+    "genshin": 4,
+    "starrail": 1,
+    "zzz": 1,
+    "arknights": 1,
+    "anime": 2,
+    "game-releases": 2
+  },
+  "events": [
+    {
+      "event_id": "acda0ce0-6061-4bb9-8c01-a21efcb7d134",
+      "uid": "acda0ce0-6061-4bb9-8c01-a21efcb7d134@calendar.yuashie.cn",
+      "feed": "genshin",
+      "sequence": 0,
+      "status": "CONFIRMED",
+      "start": {
+        "value_type": "DATE",
+        "dtstart": "20300125",
+        "dtend": "20300126"
+      },
+      "span": {
+        "value_type": "DATE-TIME",
+        "dtstart": "20300125T120000Z",
+        "dtend": null
+      }
+    },
+    {
+      "event_id": "4e8eaaf9-9b9c-483e-9486-457269ac43f1",
+      "uid": "4e8eaaf9-9b9c-483e-9486-457269ac43f1@calendar.yuashie.cn",
+      "feed": "genshin",
+      "sequence": 0,
+      "status": "CONFIRMED",
+      "start": {
+        "value_type": "DATE",
+        "dtstart": "20300130",
+        "dtend": "20300131"
+      },
+      "span": {
+        "value_type": "DATE-TIME",
+        "dtstart": "20300130T030000Z",
+        "dtend": null
+      }
+    },
+    {
+      "event_id": "e467672c-c67a-44cc-b8b7-00cd7ffe1720",
+      "uid": "e467672c-c67a-44cc-b8b7-00cd7ffe1720@calendar.yuashie.cn",
+      "feed": "genshin",
+      "sequence": 0,
+      "status": "CONFIRMED",
+      "start": {
+        "value_type": "DATE",
+        "dtstart": "20300130",
+        "dtend": "20300131"
+      },
+      "span": {
+        "value_type": "DATE-TIME",
+        "dtstart": "20300130T030000Z",
+        "dtend": "20300220T065900Z"
+      }
+    },
+    {
+      "event_id": "ab36deeb-39a1-4523-beaf-067b0ac07f5e",
+      "uid": "ab36deeb-39a1-4523-beaf-067b0ac07f5e@calendar.yuashie.cn",
+      "feed": "genshin",
+      "sequence": 0,
+      "status": "CONFIRMED",
+      "start": {
+        "value_type": "DATE",
+        "dtstart": "20300130",
+        "dtend": "20300131"
+      },
+      "span": {
+        "value_type": "DATE-TIME",
+        "dtstart": "20300130T030000Z",
+        "dtend": "20300220T065900Z"
+      }
+    },
+    {
+      "event_id": "f18b9e98-627d-4766-ab3a-fcf835368884",
+      "uid": "f18b9e98-627d-4766-ab3a-fcf835368884@calendar.yuashie.cn",
+      "feed": "starrail",
+      "sequence": 0,
+      "status": "CONFIRMED",
+      "start": {
+        "value_type": "DATE",
+        "dtstart": "20300206",
+        "dtend": "20300207"
+      },
+      "span": {
+        "value_type": "DATE-TIME",
+        "dtstart": "20300206T030000Z",
+        "dtend": null
+      }
+    },
+    {
+      "event_id": "dd5389f9-a5b7-4c05-a967-c9275e023e0d",
+      "uid": "dd5389f9-a5b7-4c05-a967-c9275e023e0d@calendar.yuashie.cn",
+      "feed": "zzz",
+      "sequence": 0,
+      "status": "CONFIRMED",
+      "start": {
+        "value_type": "DATE",
+        "dtstart": "20300131",
+        "dtend": "20300201"
+      },
+      "span": {
+        "value_type": "DATE-TIME",
+        "dtstart": "20300131T153000Z",
+        "dtend": "20300131T163000Z"
+      }
+    },
+    {
+      "event_id": "391dd2b5-83bd-4381-b628-edee16d98962",
+      "uid": "391dd2b5-83bd-4381-b628-edee16d98962@calendar.yuashie.cn",
+      "feed": "arknights",
+      "sequence": 0,
+      "status": "CONFIRMED",
+      "start": {
+        "value_type": "DATE",
+        "dtstart": "20300130",
+        "dtend": "20300131"
+      },
+      "span": {
+        "value_type": "DATE",
+        "dtstart": "20300130",
+        "dtend": "20300203"
+      }
+    },
+    {
+      "event_id": "1f52a567-1cd7-41f8-ad06-863aeb8db9cf",
+      "uid": "1f52a567-1cd7-41f8-ad06-863aeb8db9cf@calendar.yuashie.cn",
+      "feed": "anime",
+      "sequence": 0,
+      "status": "CONFIRMED",
+      "start": {
+        "value_type": "DATE",
+        "dtstart": "20300105",
+        "dtend": "20300106"
+      },
+      "span": {
+        "value_type": "DATE-TIME",
+        "dtstart": "20300104T163000Z",
+        "dtend": null
+      }
+    },
+    {
+      "event_id": "93fe0138-06fd-4bcd-8ff6-f04532cdeb87",
+      "uid": "93fe0138-06fd-4bcd-8ff6-f04532cdeb87@calendar.yuashie.cn",
+      "feed": "anime",
+      "sequence": 0,
+      "status": "CONFIRMED",
+      "start": {
+        "value_type": "DATE",
+        "dtstart": "20300112",
+        "dtend": "20300113"
+      },
+      "span": {
+        "value_type": "DATE-TIME",
+        "dtstart": "20300111T163000Z",
+        "dtend": null
+      }
+    },
+    {
+      "event_id": "9c23e3dc-9a77-4060-b667-ff25ccd06156",
+      "uid": "9c23e3dc-9a77-4060-b667-ff25ccd06156@calendar.yuashie.cn",
+      "feed": "game-releases",
+      "sequence": 0,
+      "status": "CONFIRMED",
+      "start": {
+        "value_type": "DATE",
+        "dtstart": "20300201",
+        "dtend": "20300202"
+      },
+      "span": {
+        "value_type": "DATE",
+        "dtstart": "20300201",
+        "dtend": "20300202"
+      }
+    },
+    {
+      "event_id": "110e30c3-25d9-48a6-aa1e-e308621f9310",
+      "uid": "110e30c3-25d9-48a6-aa1e-e308621f9310@calendar.yuashie.cn",
+      "feed": "game-releases",
+      "sequence": 0,
+      "status": "CONFIRMED",
+      "start": {
+        "value_type": "DATE",
+        "dtstart": "20300201",
+        "dtend": "20300202"
+      },
+      "span": {
+        "value_type": "DATE",
+        "dtstart": "20300201",
+        "dtend": "20300202"
+      }
+    }
+  ],
+  "omitted": [
+    {
+      "event_id": "da18d774-afa2-4bd8-905a-c3c6d2ba6fa1",
+      "reason": "尚未发布且日期待定，两种模式均不导出"
+    }
+  ]
+}
