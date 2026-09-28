@@ -1,0 +1,243 @@
+{
+  "fixture_version": 1,
+  "description": "每项是独立非法输入；禁止作为正常发布数据。",
+  "cases": [
+    {
+      "name": "missing-timezone-offset",
+      "event": {
+        "id": "acda0ce0-6061-4bb9-8c01-a21efcb7d134",
+        "category": "game",
+        "event_type": "livestream",
+        "title": "[虚构测试] genshin-livestream",
+        "description": "仅用于离线验证，不代表真实游戏或动漫排期。",
+        "status": "confirmed",
+        "schedule_state": "scheduled",
+        "time_kind": "datetime",
+        "start": "2030-01-25T20:00:00",
+        "end": null,
+        "timezone": "Asia/Shanghai",
+        "url": "https://example.invalid/calendar/genshin-livestream",
+        "sources": [
+          {
+            "provider": "sample-manual",
+            "source_id": "genshin-livestream",
+            "url": "https://example.invalid/calendar/genshin-livestream",
+            "checked_at": "2030-01-01T00:00:00Z",
+            "authority": "manual"
+          }
+        ],
+        "revision": 0,
+        "created_at": "2030-01-01T00:00:00Z",
+        "updated_at": "2030-01-01T00:00:00Z",
+        "game": {
+          "game_id": "genshin",
+          "server": "sample-cn",
+          "version": "sample-v1"
+        }
+      },
+      "expected_error": "精确时间缺少偏移"
+    },
+    {
+      "name": "invalid-date",
+      "event": {
+        "id": "acda0ce0-6061-4bb9-8c01-a21efcb7d134",
+        "category": "game",
+        "event_type": "livestream",
+        "title": "[虚构测试] genshin-livestream",
+        "description": "仅用于离线验证，不代表真实游戏或动漫排期。",
+        "status": "confirmed",
+        "schedule_state": "scheduled",
+        "time_kind": "datetime",
+        "start": "2030-02-30T20:00:00+08:00",
+        "end": null,
+        "timezone": "Asia/Shanghai",
+        "url": "https://example.invalid/calendar/genshin-livestream",
+        "sources": [
+          {
+            "provider": "sample-manual",
+            "source_id": "genshin-livestream",
+            "url": "https://example.invalid/calendar/genshin-livestream",
+            "checked_at": "2030-01-01T00:00:00Z",
+            "authority": "manual"
+          }
+        ],
+        "revision": 0,
+        "created_at": "2030-01-01T00:00:00Z",
+        "updated_at": "2030-01-01T00:00:00Z",
+        "game": {
+          "game_id": "genshin",
+          "server": "sample-cn",
+          "version": "sample-v1"
+        }
+      },
+      "expected_error": "日期不存在"
+    },
+    {
+      "name": "end-not-after-start",
+      "event": {
+        "id": "acda0ce0-6061-4bb9-8c01-a21efcb7d134",
+        "category": "game",
+        "event_type": "livestream",
+        "title": "[虚构测试] genshin-livestream",
+        "description": "仅用于离线验证，不代表真实游戏或动漫排期。",
+        "status": "confirmed",
+        "schedule_state": "scheduled",
+        "time_kind": "datetime",
+        "start": "2030-01-25T20:00:00+08:00",
+        "end": "2030-01-25T20:00:00+08:00",
+        "timezone": "Asia/Shanghai",
+        "url": "https://example.invalid/calendar/genshin-livestream",
+        "sources": [
+          {
+            "provider": "sample-manual",
+            "source_id": "genshin-livestream",
+            "url": "https://example.invalid/calendar/genshin-livestream",
+            "checked_at": "2030-01-01T00:00:00Z",
+            "authority": "manual"
+          }
+        ],
+        "revision": 0,
+        "created_at": "2030-01-01T00:00:00Z",
+        "updated_at": "2030-01-01T00:00:00Z",
+        "game": {
+          "game_id": "genshin",
+          "server": "sample-cn",
+          "version": "sample-v1"
+        }
+      },
+      "expected_error": "end 必须晚于 start"
+    },
+    {
+      "name": "wrong-offset",
+      "event": {
+        "id": "acda0ce0-6061-4bb9-8c01-a21efcb7d134",
+        "category": "game",
+        "event_type": "livestream",
+        "title": "[虚构测试] genshin-livestream",
+        "description": "仅用于离线验证，不代表真实游戏或动漫排期。",
+        "status": "confirmed",
+        "schedule_state": "scheduled",
+        "time_kind": "datetime",
+        "start": "2030-01-25T20:00:00+09:00",
+        "end": null,
+        "timezone": "Asia/Shanghai",
+        "url": "https://example.invalid/calendar/genshin-livestream",
+        "sources": [
+          {
+            "provider": "sample-manual",
+            "source_id": "genshin-livestream",
+            "url": "https://example.invalid/calendar/genshin-livestream",
+            "checked_at": "2030-01-01T00:00:00Z",
+            "authority": "manual"
+          }
+        ],
+        "revision": 0,
+        "created_at": "2030-01-01T00:00:00Z",
+        "updated_at": "2030-01-01T00:00:00Z",
+        "game": {
+          "game_id": "genshin",
+          "server": "sample-cn",
+          "version": "sample-v1"
+        }
+      },
+      "expected_error": "偏移与 Asia/Shanghai 不一致"
+    },
+    {
+      "name": "missing-source",
+      "event": {
+        "id": "acda0ce0-6061-4bb9-8c01-a21efcb7d134",
+        "category": "game",
+        "event_type": "livestream",
+        "title": "[虚构测试] genshin-livestream",
+        "description": "仅用于离线验证，不代表真实游戏或动漫排期。",
+        "status": "confirmed",
+        "schedule_state": "scheduled",
+        "time_kind": "datetime",
+        "start": "2030-01-25T20:00:00+08:00",
+        "end": null,
+        "timezone": "Asia/Shanghai",
+        "url": "https://example.invalid/calendar/genshin-livestream",
+        "sources": [],
+        "revision": 0,
+        "created_at": "2030-01-01T00:00:00Z",
+        "updated_at": "2030-01-01T00:00:00Z",
+        "game": {
+          "game_id": "genshin",
+          "server": "sample-cn",
+          "version": "sample-v1"
+        }
+      },
+      "expected_error": "至少一个来源"
+    },
+    {
+      "name": "wrong-category",
+      "event": {
+        "id": "acda0ce0-6061-4bb9-8c01-a21efcb7d134",
+        "category": "release",
+        "event_type": "livestream",
+        "title": "[虚构测试] genshin-livestream",
+        "description": "仅用于离线验证，不代表真实游戏或动漫排期。",
+        "status": "confirmed",
+        "schedule_state": "scheduled",
+        "time_kind": "datetime",
+        "start": "2030-01-25T20:00:00+08:00",
+        "end": null,
+        "timezone": "Asia/Shanghai",
+        "url": "https://example.invalid/calendar/genshin-livestream",
+        "sources": [
+          {
+            "provider": "sample-manual",
+            "source_id": "genshin-livestream",
+            "url": "https://example.invalid/calendar/genshin-livestream",
+            "checked_at": "2030-01-01T00:00:00Z",
+            "authority": "manual"
+          }
+        ],
+        "revision": 0,
+        "created_at": "2030-01-01T00:00:00Z",
+        "updated_at": "2030-01-01T00:00:00Z",
+        "game": {
+          "game_id": "genshin",
+          "server": "sample-cn",
+          "version": "sample-v1"
+        }
+      },
+      "expected_error": "类型和扩展对象与 category 不一致"
+    },
+    {
+      "name": "tbd-with-time",
+      "event": {
+        "id": "acda0ce0-6061-4bb9-8c01-a21efcb7d134",
+        "category": "game",
+        "event_type": "livestream",
+        "title": "[虚构测试] genshin-livestream",
+        "description": "仅用于离线验证，不代表真实游戏或动漫排期。",
+        "status": "confirmed",
+        "schedule_state": "tbd",
+        "time_kind": "datetime",
+        "start": "2030-01-25T20:00:00+08:00",
+        "end": null,
+        "timezone": "Asia/Shanghai",
+        "url": "https://example.invalid/calendar/genshin-livestream",
+        "sources": [
+          {
+            "provider": "sample-manual",
+            "source_id": "genshin-livestream",
+            "url": "https://example.invalid/calendar/genshin-livestream",
+            "checked_at": "2030-01-01T00:00:00Z",
+            "authority": "manual"
+          }
+        ],
+        "revision": 0,
+        "created_at": "2030-01-01T00:00:00Z",
+        "updated_at": "2030-01-01T00:00:00Z",
+        "game": {
+          "game_id": "genshin",
+          "server": "sample-cn",
+          "version": "sample-v1"
+        }
+      },
+      "expected_error": "待定事件不能带开始时间"
+    }
+  ]
+}
