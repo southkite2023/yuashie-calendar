@@ -1,0 +1,386 @@
+{
+  "schema_version": 1,
+  "events": [
+    {
+      "id": "acda0ce0-6061-4bb9-8c01-a21efcb7d134",
+      "category": "game",
+      "event_type": "livestream",
+      "title": "[虚构测试] genshin-livestream",
+      "description": "仅用于离线验证，不代表真实游戏或动漫排期。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2030-01-25T20:00:00+08:00",
+      "end": null,
+      "timezone": "Asia/Shanghai",
+      "url": "https://example.invalid/calendar/genshin-livestream",
+      "sources": [
+        {
+          "provider": "sample-manual",
+          "source_id": "genshin-livestream",
+          "url": "https://example.invalid/calendar/genshin-livestream",
+          "checked_at": "2030-01-01T00:00:00Z",
+          "authority": "manual"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2030-01-01T00:00:00Z",
+      "updated_at": "2030-01-01T00:00:00Z",
+      "game": {
+        "game_id": "genshin",
+        "server": "sample-cn",
+        "version": "sample-v1"
+      }
+    },
+    {
+      "id": "4e8eaaf9-9b9c-483e-9486-457269ac43f1",
+      "category": "game",
+      "event_type": "version_update",
+      "title": "[虚构测试] genshin-version",
+      "description": "仅用于离线验证，不代表真实游戏或动漫排期。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2030-01-30T11:00:00+08:00",
+      "end": null,
+      "timezone": "Asia/Shanghai",
+      "url": "https://example.invalid/calendar/genshin-version",
+      "sources": [
+        {
+          "provider": "sample-manual",
+          "source_id": "genshin-version",
+          "url": "https://example.invalid/calendar/genshin-version",
+          "checked_at": "2030-01-01T00:00:00Z",
+          "authority": "manual"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2030-01-01T00:00:00Z",
+      "updated_at": "2030-01-01T00:00:00Z",
+      "game": {
+        "game_id": "genshin",
+        "server": "sample-cn",
+        "version": "sample-v1"
+      }
+    },
+    {
+      "id": "e467672c-c67a-44cc-b8b7-00cd7ffe1720",
+      "category": "game",
+      "event_type": "banner",
+      "title": "[虚构测试] genshin-character-banner",
+      "description": "仅用于离线验证，不代表真实游戏或动漫排期。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2030-01-30T11:00:00+08:00",
+      "end": "2030-02-20T14:59:00+08:00",
+      "timezone": "Asia/Shanghai",
+      "url": "https://example.invalid/calendar/genshin-character-banner",
+      "sources": [
+        {
+          "provider": "sample-manual",
+          "source_id": "genshin-character-banner",
+          "url": "https://example.invalid/calendar/genshin-character-banner",
+          "checked_at": "2030-01-01T00:00:00Z",
+          "authority": "manual"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2030-01-01T00:00:00Z",
+      "updated_at": "2030-01-01T00:00:00Z",
+      "game": {
+        "game_id": "genshin",
+        "server": "sample-cn",
+        "version": "sample-v1",
+        "banner_id": "sample-character-1"
+      }
+    },
+    {
+      "id": "ab36deeb-39a1-4523-beaf-067b0ac07f5e",
+      "category": "game",
+      "event_type": "banner",
+      "title": "[虚构测试] genshin-weapon-banner",
+      "description": "仅用于离线验证，不代表真实游戏或动漫排期。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2030-01-30T11:00:00+08:00",
+      "end": "2030-02-20T14:59:00+08:00",
+      "timezone": "Asia/Shanghai",
+      "url": "https://example.invalid/calendar/genshin-weapon-banner",
+      "sources": [
+        {
+          "provider": "sample-manual",
+          "source_id": "genshin-weapon-banner",
+          "url": "https://example.invalid/calendar/genshin-weapon-banner",
+          "checked_at": "2030-01-01T00:00:00Z",
+          "authority": "manual"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2030-01-01T00:00:00Z",
+      "updated_at": "2030-01-01T00:00:00Z",
+      "game": {
+        "game_id": "genshin",
+        "server": "sample-cn",
+        "version": "sample-v1",
+        "banner_id": "sample-weapon-1"
+      }
+    },
+    {
+      "id": "f18b9e98-627d-4766-ab3a-fcf835368884",
+      "category": "game",
+      "event_type": "version_update",
+      "title": "[虚构测试] starrail-version",
+      "description": "仅用于离线验证，不代表真实游戏或动漫排期。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2030-02-06T11:00:00+08:00",
+      "end": null,
+      "timezone": "Asia/Shanghai",
+      "url": "https://example.invalid/calendar/starrail-version",
+      "sources": [
+        {
+          "provider": "sample-manual",
+          "source_id": "starrail-version",
+          "url": "https://example.invalid/calendar/starrail-version",
+          "checked_at": "2030-01-01T00:00:00Z",
+          "authority": "manual"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2030-01-01T00:00:00Z",
+      "updated_at": "2030-01-01T00:00:00Z",
+      "game": {
+        "game_id": "starrail",
+        "server": "sample-cn",
+        "version": "sample-v1"
+      }
+    },
+    {
+      "id": "dd5389f9-a5b7-4c05-a967-c9275e023e0d",
+      "category": "game",
+      "event_type": "livestream",
+      "title": "[虚构测试] zzz-livestream",
+      "description": "仅用于离线验证，不代表真实游戏或动漫排期。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2030-01-31T23:30:00+08:00",
+      "end": "2030-02-01T00:30:00+08:00",
+      "timezone": "Asia/Shanghai",
+      "url": "https://example.invalid/calendar/zzz-livestream",
+      "sources": [
+        {
+          "provider": "sample-manual",
+          "source_id": "zzz-livestream",
+          "url": "https://example.invalid/calendar/zzz-livestream",
+          "checked_at": "2030-01-01T00:00:00Z",
+          "authority": "manual"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2030-01-01T00:00:00Z",
+      "updated_at": "2030-01-01T00:00:00Z",
+      "game": {
+        "game_id": "zzz",
+        "server": "sample-cn",
+        "version": "sample-v1"
+      }
+    },
+    {
+      "id": "391dd2b5-83bd-4381-b628-edee16d98962",
+      "category": "game",
+      "event_type": "banner",
+      "title": "[虚构测试] arknights-date-banner",
+      "description": "[虚构测试] 来源仅给日期：1 月 30 日至 2 月 2 日（含末日），结束存为 2 月 3 日。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "date",
+      "start": "2030-01-30",
+      "end": "2030-02-03",
+      "timezone": "Asia/Shanghai",
+      "url": "https://example.invalid/calendar/arknights-date-banner",
+      "sources": [
+        {
+          "provider": "sample-manual",
+          "source_id": "arknights-date-banner",
+          "url": "https://example.invalid/calendar/arknights-date-banner",
+          "checked_at": "2030-01-01T00:00:00Z",
+          "authority": "manual"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2030-01-01T00:00:00Z",
+      "updated_at": "2030-01-01T00:00:00Z",
+      "game": {
+        "game_id": "arknights",
+        "server": "sample-cn",
+        "version": "sample-v1",
+        "banner_id": "sample-banner-date"
+      }
+    },
+    {
+      "id": "1f52a567-1cd7-41f8-ad06-863aeb8db9cf",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "[虚构测试] anime-episode-1",
+      "description": "[虚构测试] 周五 25:30 日本首播；即周六 01:30 JST / 00:30 北京时间。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2030-01-05T01:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://example.invalid/calendar/anime-episode-1",
+      "sources": [
+        {
+          "provider": "sample-manual",
+          "source_id": "anime-episode-1",
+          "url": "https://example.invalid/calendar/anime-episode-1",
+          "checked_at": "2030-01-01T00:00:00Z",
+          "authority": "manual"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2030-01-01T00:00:00Z",
+      "updated_at": "2030-01-01T00:00:00Z",
+      "anime": {
+        "series_id": "sample:anime-a",
+        "episode_id": "1",
+        "episode_label": "第 1 集",
+        "channel": "sample-jp-first"
+      }
+    },
+    {
+      "id": "93fe0138-06fd-4bcd-8ff6-f04532cdeb87",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "[虚构测试] anime-episode-2",
+      "description": "[虚构测试] 周五 25:30 日本首播；即周六 01:30 JST / 00:30 北京时间。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2030-01-12T01:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://example.invalid/calendar/anime-episode-2",
+      "sources": [
+        {
+          "provider": "sample-manual",
+          "source_id": "anime-episode-2",
+          "url": "https://example.invalid/calendar/anime-episode-2",
+          "checked_at": "2030-01-01T00:00:00Z",
+          "authority": "manual"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2030-01-01T00:00:00Z",
+      "updated_at": "2030-01-01T00:00:00Z",
+      "anime": {
+        "series_id": "sample:anime-a",
+        "episode_id": "2",
+        "episode_label": "第 2 集",
+        "channel": "sample-jp-first"
+      }
+    },
+    {
+      "id": "9c23e3dc-9a77-4060-b667-ff25ccd06156",
+      "category": "release",
+      "event_type": "game_release",
+      "title": "[虚构测试] release-a-pc",
+      "description": "仅用于离线验证，不代表真实游戏或动漫排期。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "date",
+      "start": "2030-02-01",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://example.invalid/calendar/release-a-pc",
+      "sources": [
+        {
+          "provider": "sample-manual",
+          "source_id": "release-a-pc",
+          "url": "https://example.invalid/calendar/release-a-pc",
+          "checked_at": "2030-01-01T00:00:00Z",
+          "authority": "manual"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2030-01-01T00:00:00Z",
+      "updated_at": "2030-01-01T00:00:00Z",
+      "release": {
+        "game_id": "sample:game-a",
+        "platform": "pc",
+        "region": "JP",
+        "release_stage": "full_release"
+      }
+    },
+    {
+      "id": "110e30c3-25d9-48a6-aa1e-e308621f9310",
+      "category": "release",
+      "event_type": "game_release",
+      "title": "[虚构测试] release-a-ps5",
+      "description": "仅用于离线验证，不代表真实游戏或动漫排期。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "date",
+      "start": "2030-02-01",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://example.invalid/calendar/release-a-ps5",
+      "sources": [
+        {
+          "provider": "sample-manual",
+          "source_id": "release-a-ps5",
+          "url": "https://example.invalid/calendar/release-a-ps5",
+          "checked_at": "2030-01-01T00:00:00Z",
+          "authority": "manual"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2030-01-01T00:00:00Z",
+      "updated_at": "2030-01-01T00:00:00Z",
+      "release": {
+        "game_id": "sample:game-a",
+        "platform": "ps5",
+        "region": "JP",
+        "release_stage": "full_release"
+      }
+    },
+    {
+      "id": "da18d774-afa2-4bd8-905a-c3c6d2ba6fa1",
+      "category": "release",
+      "event_type": "game_release",
+      "title": "[虚构测试] release-b-tbd",
+      "description": "仅用于离线验证，不代表真实游戏或动漫排期。",
+      "status": "tentative",
+      "schedule_state": "tbd",
+      "time_kind": "unknown",
+      "start": null,
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://example.invalid/calendar/release-b-tbd",
+      "sources": [
+        {
+          "provider": "sample-manual",
+          "source_id": "release-b-tbd",
+          "url": "https://example.invalid/calendar/release-b-tbd",
+          "checked_at": "2030-01-01T00:00:00Z",
+          "authority": "manual"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2030-01-01T00:00:00Z",
+      "updated_at": "2030-01-01T00:00:00Z",
+      "date_hint": "2030 年第二季度",
+      "release": {
+        "game_id": "sample:game-b",
+        "platform": "pc",
+        "region": "JP",
+        "release_stage": "full_release"
+      }
+    }
+  ]
+}
