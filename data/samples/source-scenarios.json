@@ -1,0 +1,79 @@
+{
+  "fixture_version": 1,
+  "cases": [
+    {
+      "name": "cross-source-alias",
+      "existing_event_id": "e467672c-c67a-44cc-b8b7-00cd7ffe1720",
+      "additional_source": {
+        "provider": "sample-wiki",
+        "source_id": "sample-banner-alias",
+        "url": "https://example.invalid/wiki/banner",
+        "checked_at": "2030-01-02T00:00:00Z",
+        "authority": "wiki"
+      },
+      "match_scope": {
+        "game_id": "genshin",
+        "server": "sample-cn",
+        "version": "sample-v1",
+        "banner_id": "sample-character-1"
+      },
+      "match_decision": "人工确认是同一个卡池实例",
+      "expected": {
+        "total_event_count": 12,
+        "uid_unchanged": true,
+        "source_count": 2,
+        "revision": 1
+      }
+    },
+    {
+      "name": "simultaneous-banners",
+      "event_ids": [
+        "e467672c-c67a-44cc-b8b7-00cd7ffe1720",
+        "ab36deeb-39a1-4523-beaf-067b0ac07f5e"
+      ],
+      "expected": "不同 banner_id，保留两个事件和 UID"
+    },
+    {
+      "name": "different-platforms",
+      "event_ids": [
+        "9c23e3dc-9a77-4060-b667-ff25ccd06156",
+        "110e30c3-25d9-48a6-aa1e-e308621f9310"
+      ],
+      "expected": "不同 platform，保留两个事件和 UID"
+    },
+    {
+      "name": "unresolved-source-conflict",
+      "event_id": "acda0ce0-6061-4bb9-8c01-a21efcb7d134",
+      "incoming_start": "2030-01-26T20:00:00+08:00",
+      "authority": "manual",
+      "expected": "无法判定时保持现有事件、revision 与已发布文件，记录人工核验事项"
+    },
+    {
+      "name": "fetch-timeout",
+      "input_state": "timeout",
+      "expected": "保持上一份有效 feed 的全部字节、事件身份与 revision；单独记录失败，不产生取消记录"
+    },
+    {
+      "name": "parse-failed",
+      "input_state": "invalid response",
+      "expected": "保持上一份有效 feed 的全部字节、事件身份与 revision；单独记录失败，不产生取消记录"
+    },
+    {
+      "name": "unexpected-empty",
+      "input_state": "empty events",
+      "expected": "保持上一份有效 feed 的全部字节、事件身份与 revision；单独记录失败，不产生取消记录"
+    }
+  ],
+  "datetime_normalization": [
+    {
+      "source_text": "2030-01-04（周五）25:30 JST",
+      "expected_start": "2030-01-05T01:30:00+09:00",
+      "expected_utc": "2030-01-04T16:30:00Z"
+    },
+    {
+      "source_text": "2030-01-30 至 2030-02-02，含末日，仅日期",
+      "expected_start": "2030-01-30",
+      "expected_end": "2030-02-03"
+    }
+  ]
+}
