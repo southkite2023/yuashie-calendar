@@ -1,0 +1,72 @@
+name: Publish fictional ICS test feeds
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/publish-test-pages.yml'
+      - 'src/yuashie_calendar/**'
+      - 'data/samples/**'
+      - 'scripts/stage_sample_pages.py'
+      - 'tests/**'
+      - 'requirements*.txt'
+      - 'pyproject.toml'
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: fictional-calendar-pages
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    name: Test and publish fictional ICS
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Configure Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install pinned requirements
+        run: python -m pip install -r requirements-dev.txt
+
+      - name: Run existing calendar tests
+        env:
+          PYTHONPATH: src
+        run: python -m pytest -q
+
+      - name: Generate explicitly fictional feeds
+        env:
+          PYTHONPATH: src
+        run: |
+          python -m yuashie_calendar \
+            --input data/samples/events.json \
+            --output dist/sample-calendar \
+            --allow-samples
+
+      - name: Validate and stage public-only files
+        run: python scripts/stage_sample_pages.py
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload public Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist/pages-site
+
+      - name: Deploy test site
+        id: deployment
+        uses: actions/deploy-pages@v4
