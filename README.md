@@ -63,7 +63,7 @@ yuashie-calendar/
 5. 实现内容选择、显示模式及主站入口。
 6. 配置定时刷新、失败监控与发布流程。
 
-第一步设计见 [统一事件数据规范 v1](docs/event-model.md)；第二步见 [离线虚构样例](data/samples/README.md)，第三步已实现校验与 ICS 生成；下一步发布测试订阅地址并验证客户端。详细范围见 [实施路线](docs/roadmap.md)。本地安装、生成与测试命令见 [运行说明](docs/running.md)。
+第一步设计见 [统一事件数据规范 v1](docs/event-model.md)；第二步见 [离线虚构样例](data/samples/README.md)，第三步已实现校验与 ICS 生成。第四步的 GitHub Pages 测试发布工作流及安全校验已提交、可构建，**仓库 Pages 尚需启用，未形成在线订阅地址**。详细步骤见 [GitHub Pages 虚构订阅测试](docs/test-pages.md)，项目范围见 [实施路线](docs/roadmap.md)，本地命令见 [运行说明](docs/running.md)。
 
 ## 数据与维护原则
 
