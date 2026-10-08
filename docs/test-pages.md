@@ -21,7 +21,9 @@ GitHub Actions 的每次运行都是新的工作目录；目前只有固定的�
 [此工作流的第二次执行](https://github.com/southkite2023/yuashie-calendar/actions/runs/37714362645) 在 GitHub 上显示 **success**：
 `pytest`、12 份 ICS 构建、22 个 VEVENT 校验、公开文件暂存、Pages 配置、artifact 上传及部署均成功。部署日志显示 Pages URL 为 `https://southkite2023.github.io/yuashie-calendar/`。
 
-**未验证项目**：当前自动化环境无法独立 GET `github.io` 链接，尚无从外部确认 HTTPS HTTP 状态、`Content-Type` 或 Apple/Google Calendar 真实订阅结果。实机核验前不要宣称这些检查通过。
+**已验证（2026-10-08）**：用户按订阅 URL 操作后提供了 Apple Calendar 桌面月视图截图；其中原神测试前瞻在 2030-01-25 20:00、版本在 01-30 11:00，角色/武器卡池两个跨日条带均截止 02-20 14:59。这证明 Apple Calendar 可显示本次 `span.ics` 样例事件，且用户反馈的订阅流程可用。截图仅作为人工验收记录，不上传个人日历截图至公开仓库。
+
+**未验证项目**：当前自动化环境无法独立 GET `github.io` 链接，尚无法单独确认线上 HTTP 状态和 `Content-Type`。Apple Calendar 的后续自动刷新、改期和取消、Google Calendar 订阅均未测试。
 
 后续可在 [Actions](https://github.com/southkite2023/yuashie-calendar/actions) 手动重新运行工作流。如果 Pages 出现 404，核对 [Pages 设置](https://github.com/southkite2023/yuashie-calendar/settings/pages) 的 Source 仍为 GitHub Actions，并检查部署日志。
 
@@ -45,7 +47,7 @@ Pages 项目地址（GitHub 已报告部署成功）：
 
 ## 实机验证清单（需要用户操作）
 
-**Apple Calendar**：在 iPhone / Mac 的日历设置中使用 **添加订阅日历**（不是一次性导入 ICS），粘贴上面的一个测试 URL。订阅成功后导航至 2030 年相应月份，观察是否出现 `[虚构测试]` 事件；记录设备系统版本、所用 URL、时区、显示模式与结果。订阅多个模式可能看到重复事件，测试时建议仅选一种。
+**Apple Calendar**：已通过 Mac 桌面月视图确认基础显示；仍需验证 iPhone 及自动刷新。若重新测试，请在 iPhone / Mac 的日历设置中使用 **添加订阅日历**（不是一次性导入 ICS），粘贴上面的一个测试 URL。订阅成功后导航至 2030 年相应月份，观察是否出现 `[虚构测试]` 事件；记录设备系统版本、所用 URL、时区、显示模式与结果。订阅多个模式可能看到重复事件，测试时建议仅选一种。
 
 **Google Calendar**：在网页版「其他日历 → + → 通过网址添加」填入同一 HTTPS 测试地址。Google 的刷新周期由 Google 控制，不能将「网页 GET 能下载」等同于「Google 已成功订阅」。记录是否导入、首次出现时间以及客户端是否更新。
 
