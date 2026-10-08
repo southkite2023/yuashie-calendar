@@ -54,3 +54,30 @@ Pages 项目地址（GitHub 已报告部署成功）：
 **改期 / 取消 / 恢复**：当前工作流只有固定虚构基础快照，不能实际验证在线生命周期更新。须另建受控的持久化测试数据发布流程，并保持同一个 URL 和 UID，依序发布生命周期样例，再等待客户端刷新并检查 `SEQUENCE`。此项在完成真实客户端基础订阅后实施。
 
 验收记录应写明 **实际结果**，未测试的项目保持未验证，不能根据离线 `pytest` 推定通过。
+
+## 独立生命周期订阅测试（准备就绪后由用户操作）
+
+另设两份 **与基础六类 Feed 完全隔离** 的订阅 URL（用于同 UID 改期、延期、取消、恢复）：
+
+- `https://southkite2023.github.io/yuashie-calendar/calendar/v1/lifecycle-test/span.ics`
+- `https://southkite2023.github.io/yuashie-calendar/calendar/v1/lifecycle-test/start.ics`
+
+测试事件是虚构动漫单集 `anime-episode-2`，默认首播 `2030-01-12 01:30`（日本时间），且 `UID` 固定。**请只订阅其中一种模式**。此测试源内容未来会变更；之前已经订阅的原神 `genshin/span.ics` **不会受影响**。
+
+### 控制阶段
+
+由版本控制中的 [`config/lifecycle-stage.txt`](../config/lifecycle-stage.txt) 指定。仅在用户已确认收到上一阶段后，按以下严格顺序逐个修改并提交，由 GitHub Actions 自动重新部署同一 URL：
+
+| stage | 预期变化 | SEQUENCE | 事件状态 |
+| --- | --- | ---: | --- |
+| `initial` | 2030-01-12 01:30 JST | 0 | CONFIRMED |
+| `rescheduled` | 改为 2030-01-19 01:30 JST | 1 | CONFIRMED |
+| `postponed-tbd` | 延期，时间待定，取消此前日期 | 2 | CANCELLED |
+| `restored` | 恢复为 2030-01-26 01:30 JST | 3 | CONFIRMED |
+| `cancelled` | 取消该次播出 | 4 | CANCELLED |
+| `checked-only` | 来源再次核查，不改动事件定义 | 4 | CANCELLED |
+
+工作流通过 `scripts/build_lifecycle_test.py` 在隔离的目录中从初始快照按序回放到当前阶段，以重建必要的历史，而不是上传私有 `state.json`。此方法只适用于有限、固定的公开虚构测试；真实数据生产系统仍需要可靠的持久化历史存储与备份。
+
+**观测要求**：每次发布完成后，用日历客户端订阅刷新功能等待服务端拉取，记录同一 UID 是否移动日期或显示取消（部分客户端会隐藏已取消事件）。Apple/Google 对 URL 订阅有自主的刷新频率，可能需要较长时间；打开 `.ics` 文件/重新导入无法证明客户端的自动更新行为。未观察到刷新，不代表 ICS 已错误；保留测试阶段直至有明确结果。公开 GitHub Pages 不能强制客户端即时刷新。
+
