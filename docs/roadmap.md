@@ -8,7 +8,8 @@
 - [x] 第二步：离线虚构样例与字段级预期
 - [x] 第三步：离线校验与 ICS 生成（39 项自动测试通过）
 - [x] 第四步：GitHub Pages 测试发布工作流、12 份虚构 ICS 与公开文件校验（CI 已验证）
-- [ ] 第四步：在仓库设置中启用 GitHub Pages，部署成功并检查 HTTPS/Content-Type
+- [x] 第四步：启用 GitHub Pages；2026-10-08 GitHub Actions 部署成功（[运行记录](https://github.com/southkite2023/yuashie-calendar/actions/runs/37714362645)）
+- [ ] 第四步：独立检查线上 HTTPS GET 状态与 ICS Content-Type
 - [ ] 第四步：Apple Calendar / Google Calendar 实际订阅与更新验证
 - [ ] 真实数据源
 - [ ] 订阅地址与网站入口
@@ -27,13 +28,13 @@
 
 ## 下一步：第四步订阅验证
 
-已选择 GitHub Pages 并提交公开虚构 ICS 的 Actions 工作流，CI 中已执行 39 项测试、生成 12 份 ICS，公开文件校验通过。但 Pages 尚未启用，部署未成功。仓库所有者先到 Settings → Pages 选 GitHub Actions，然后重新运行工作流。验证 HTTPS/Content-Type 后，再在 Apple Calendar / Google Calendar 中核验订阅与刷新；改期/取消的在线验证还需要有历史持久化的受控测试流程。详见 [GitHub Pages 测试说明](test-pages.md)。之后才接真实数据源。
+已选择 GitHub Pages 并提交公开虚构 ICS 的 Actions 工作流，CI 中已执行 39 项测试、生成 12 份 ICS，公开文件校验通过。仓库所有者已启用 Pages，2026-10-08 第二次运行获得 GitHub Actions 部署成功。测试入口：[yuashie-calendar GitHub Pages](https://southkite2023.github.io/yuashie-calendar/)；但当前环境无法独立访问该域名，尚未确认线上 HTTP 状态及 Content-Type。接下来须在 Apple Calendar / Google Calendar 中核验真实订阅与刷新；改期/取消的在线验证还需要有历史持久化的受控测试流程。详见 [GitHub Pages 测试说明](test-pages.md)。之后才接真实数据源。
 
 ## 初版边界
 
 按四款游戏、动漫、新游发售生成六类基础订阅源，每类 start / span 两种模式，共 12 个文件；路径契约见事件规范。任意组合订阅的实现方式另外设计，不能仅靠前端勾选就让静态服务器自动生成任意组合文件。
 
-暂不实现账号系统、用户数据库、个性化 token、爬虫、API 接入或线上部署。
+测试阶段暂不实现账号系统、用户数据库、个性化 token、爬虫或生产 Feed API；已上线的仅是固定虚构样例静态文件，并非正式线上订阅服务。
 
 ## 候选数据源（待核实）
 
