@@ -15,14 +15,17 @@
 
 GitHub Actions 的每次运行都是新的工作目录；目前只有固定的虚构基础快照。真实改期/取消后发布需要持久化 generation 和 state.json 的可信存储及备份，不能以当前测试 workflow 代替生产同步机制。
 
-## GitHub 仓库所有者需要完成的设置
+## 当前部署状态（2026-10-08）
 
-1. 打开 [Repository Settings → Pages](https://github.com/southkite2023/yuashie-calendar/settings/pages)。
-2. 在 **Build and deployment → Source** 选择 **GitHub Actions** 并保存。暂时不需要自定义域名、DNS 或阿里云服务器。
-3. 到 [Actions → Publish fictional ICS test feeds](https://github.com/southkite2023/yuashie-calendar/actions) 查看最新执行；必要时在对应 workflow 页面手动点击 **Run workflow**。若部署受 `github-pages` Environment 审批限制，请按页面提示批准。
-4. 工作流绿色成功后，先检查网页和 ICS；如果 Pages 仍返回 404，核对 Pages Source 和工作流部署步骤，不能宣称已经上线。
+仓库所有者已在 **Settings → Pages → Build and deployment → Source** 选择 **GitHub Actions**。
+[此工作流的第二次执行](https://github.com/southkite2023/yuashie-calendar/actions/runs/37714362645) 在 GitHub 上显示 **success**：
+`pytest`、12 份 ICS 构建、22 个 VEVENT 校验、公开文件暂存、Pages 配置、artifact 上传及部署均成功。部署日志显示 Pages URL 为 `https://southkite2023.github.io/yuashie-calendar/`。
 
-Pages 项目地址（**只有发布成功后才有效**）：
+**未验证项目**：当前自动化环境无法独立 GET `github.io` 链接，尚无从外部确认 HTTPS HTTP 状态、`Content-Type` 或 Apple/Google Calendar 真实订阅结果。实机核验前不要宣称这些检查通过。
+
+后续可在 [Actions](https://github.com/southkite2023/yuashie-calendar/actions) 手动重新运行工作流。如果 Pages 出现 404，核对 [Pages 设置](https://github.com/southkite2023/yuashie-calendar/settings/pages) 的 Source 仍为 GitHub Actions，并检查部署日志。
+
+Pages 项目地址（GitHub 已报告部署成功）：
 
 - 测试说明：`https://southkite2023.github.io/yuashie-calendar/`
 - 原神：`https://southkite2023.github.io/yuashie-calendar/calendar/v1/genshin/span.ics`
