@@ -9,6 +9,8 @@ on:
       - 'src/yuashie_calendar/**'
       - 'data/samples/**'
       - 'scripts/stage_sample_pages.py'
+      - 'scripts/build_lifecycle_test.py'
+      - 'config/lifecycle-stage.txt'
       - 'tests/**'
       - 'requirements*.txt'
       - 'pyproject.toml'
@@ -55,6 +57,11 @@ jobs:
             --input data/samples/events.json \
             --output dist/sample-calendar \
             --allow-samples
+
+      - name: Generate isolated lifecycle test feeds
+        env:
+          PYTHONPATH: src
+        run: python scripts/build_lifecycle_test.py
 
       - name: Validate and stage public-only files
         run: python scripts/stage_sample_pages.py
