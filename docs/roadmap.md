@@ -7,7 +7,9 @@
 - [x] 统一事件数据规范 v1（设计文档）
 - [x] 第二步：离线虚构样例与字段级预期
 - [x] 第三步：离线校验与 ICS 生成（39 项自动测试通过）
-- [ ] 第四步：测试订阅地址与客户端验证
+- [x] 第四步：GitHub Pages 测试发布工作流、12 份虚构 ICS 与公开文件校验（CI 已验证）
+- [ ] 第四步：在仓库设置中启用 GitHub Pages，部署成功并检查 HTTPS/Content-Type
+- [ ] 第四步：Apple Calendar / Google Calendar 实际订阅与更新验证
 - [ ] 真实数据源
 - [ ] 订阅地址与网站入口
 
@@ -25,7 +27,7 @@
 
 ## 下一步：第四步订阅验证
 
-选择测试托管位置，发布明确标记的虚构日历 URL，再验证 Apple Calendar / Google Calendar 的订阅、改期、取消和刷新延迟。之后才接真实数据源。
+已选择 GitHub Pages 并提交公开虚构 ICS 的 Actions 工作流，CI 中已执行 39 项测试、生成 12 份 ICS，公开文件校验通过。但 Pages 尚未启用，部署未成功。仓库所有者先到 Settings → Pages 选 GitHub Actions，然后重新运行工作流。验证 HTTPS/Content-Type 后，再在 Apple Calendar / Google Calendar 中核验订阅与刷新；改期/取消的在线验证还需要有历史持久化的受控测试流程。详见 [GitHub Pages 测试说明](test-pages.md)。之后才接真实数据源。
 
 ## 初版边界
 
