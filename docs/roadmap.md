@@ -11,7 +11,8 @@
 - [x] 第四步：启用 GitHub Pages；2026-10-08 GitHub Actions 部署成功（[运行记录](https://github.com/southkite2023/yuashie-calendar/actions/runs/37714362645)）
 - [ ] 第四步：独立检查线上 HTTPS GET 状态与 ICS Content-Type
 - [x] 第四步：Apple Calendar（macOS 截图）基础 ICS 订阅及 span 模式事件展示通过（2026-10-08）
-- [ ] 第四步：Apple Calendar 改期、取消及自动刷新验证
+- [x] 第四步：独立生命周期测试源（两个 ICS）已成功部署，不影响原有 12 份订阅
+- [ ] 第四步：Apple Calendar 改期、取消及自动刷新验证（等待订阅独立测试源）
 - [ ] 第四步：Google Calendar 订阅和更新验证
 - [ ] 真实数据源
 - [ ] 订阅地址与网站入口
@@ -30,7 +31,7 @@
 
 ## 下一步：第四步订阅验证
 
-已选择 GitHub Pages 并提交公开虚构 ICS 的 Actions 工作流，CI 中已执行 39 项测试、生成 12 份 ICS，公开文件校验通过。仓库所有者已启用 Pages，2026-10-08 第二次运行获得 GitHub Actions 部署成功。测试入口：[yuashie-calendar GitHub Pages](https://southkite2023.github.io/yuashie-calendar/)；但当前环境无法独立访问该域名，尚未确认线上 HTTP 状态及 Content-Type。2026-10-08 已收到 Apple Calendar 桌面月视图截图：2030-01-25 20:00 原神前瞻、2030-01-30 11:00 版本和两个卡池及延续到 02-20 14:59 的 span 长条正常可见（用户操作为订阅 URL）。这属于 Apple Calendar 的基础展示验收，不能据此认定自动刷新、取消、改期或 Google Calendar 已验证。改期/取消的在线验证仍需要有历史持久化的受控测试流程。详见 [GitHub Pages 测试说明](test-pages.md)。之后才接真实数据源。
+已选择 GitHub Pages 并提交公开虚构 ICS 的 Actions 工作流，CI 中已执行 39 项测试、生成 12 份 ICS，公开文件校验通过。仓库所有者已启用 Pages，2026-10-08 第二次运行获得 GitHub Actions 部署成功。测试入口：[yuashie-calendar GitHub Pages](https://southkite2023.github.io/yuashie-calendar/)；但当前环境无法独立访问该域名，尚未确认线上 HTTP 状态及 Content-Type。2026-10-08 已收到 Apple Calendar 桌面月视图截图：2030-01-25 20:00 原神前瞻、2030-01-30 11:00 版本和两个卡池及延续到 02-20 14:59 的 span 长条正常可见（用户操作为订阅 URL）。这属于 Apple Calendar 的基础展示验收，不能据此认定自动刷新、取消、改期或 Google Calendar 已验证。已在独立 `lifecycle-test` URL 上部署固定快照回放式测试流程，可安全测试同 UID 改期、延期、恢复、取消；等待客户端订阅后再逐阶段推进，不能用它替代生产持久化。详见 [GitHub Pages 测试说明](test-pages.md)。之后才接真实数据源。
 
 ## 初版边界
 
