@@ -13,6 +13,7 @@ from icalendar import Calendar
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "dist/sample-calendar/current/calendar/v1"
+LIFECYCLE_SOURCE = ROOT / "dist/lifecycle-test-calendar/current/calendar/v1/anime"
 PUBLIC = ROOT / "dist/pages-site"
 COUNTS = {
     "genshin": 4,
@@ -39,7 +40,7 @@ def verify(source: Path) -> int:
         title = str(event.get("SUMMARY", ""))
         url = str(event.get("URL", ""))
         uid = str(event.get("UID", ""))
-        if not title.startswith("[虚构测试] "):
+        if not (title.startswith("[虚构测试] ") or title.startswith("延期，时间待定：[虚构测试] ")):
             raise RuntimeError(f"An event is not visibly marked fictional: {title}")
         if not url.startswith("https://example.invalid/"):
             raise RuntimeError(f"Unexpected non-fictional source URL in {source}: {url}")
@@ -61,6 +62,14 @@ def main() -> None:
             verified.append((rel, src))
     if sum(COUNTS.values()) * len(MODES) != 22 or len(verified) != 12:
         raise RuntimeError("The expected 12-file / 22-event test set has changed")
+
+    # Separate lifecycle URLs never alter the 12 already-subscribed base feeds.
+    for mode in MODES:
+        rel = Path("calendar/v1/lifecycle-test") / f"{mode}.ics"
+        src = LIFECYCLE_SOURCE / f"{mode}.ics"
+        if verify(src) != 1:
+            raise RuntimeError(f"Lifecycle test must have one event in {src}")
+        verified.append((rel, src))
 
     if PUBLIC.exists():
         shutil.rmtree(PUBLIC)
@@ -96,15 +105,18 @@ def main() -> None:
         'Not a real release schedule or production feed.</p>'
         '<p>此页面仅用于检验日历客户端是否能订阅、解析 ICS。'
         '订阅地址可能需要你在日历软件中手动添加。</p>'
+        '<p><strong>lifecycle-test</strong> 为独立的改期/取消测试源，'
+        '其内容会按测试阶段变化；其他 12 份基础订阅不会受到影响。</p>'
         '<ul>' + "".join(links) + '</ul>'
         '<p><a href="https://github.com/southkite2023/yuashie-calendar">'
         'GitHub 仓库与测试说明</a></p></body></html>\n',
         encoding="utf-8",
     )
     staged = sorted(p.relative_to(PUBLIC).as_posix() for p in PUBLIC.rglob("*") if p.is_file())
-    if len(staged) != 15 or any("state.json" in p or "generations/" in p for p in staged):
+    allowed = {rel.as_posix() for rel, _ in verified} | {"index.html", "robots.txt", ".nojekyll"}
+    if set(staged) != allowed:
         raise RuntimeError("Unexpected public contents: " + repr(staged))
-    print("Verified and staged 12 explicitly fictional ICS files, 22 VEVENTs.")
+    print("Verified and staged 12 base ICS files (22 VEVENTs) plus 2 isolated lifecycle files.")
     print("Only ICS files, index.html, robots.txt and .nojekyll will be public.")
 
 
