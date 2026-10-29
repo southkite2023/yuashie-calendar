@@ -36,12 +36,14 @@ def main() -> None:
     files = render(records)
     args.output.mkdir(parents=True, exist_ok=True)
     for mode in MODES:
-        payload = files[f"calendar/v1/anime/{mode}.ics"]
-        parsed = Calendar.from_ical(payload).walk("VEVENT")
+        calendar = Calendar.from_ical(files[f"calendar/v1/anime/{mode}.ics"])
+        # Distinguish operational AniList subscriptions from fictional test feeds.
+        calendar["X-WR-CALNAME"] = f"Yuashie Calendar · AniList 动漫播出 · {mode}"
+        parsed = calendar.walk("VEVENT")
         if len(parsed) != len(package["events"]):
             raise ValueError("Real calendar count mismatch")
         target = args.output / f"{mode}.ics"
-        target.write_bytes(payload)
+        target.write_bytes(calendar.to_ical())
 
     args.snapshot.parent.mkdir(parents=True, exist_ok=True)
     args.snapshot.write_text(json.dumps(package, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
