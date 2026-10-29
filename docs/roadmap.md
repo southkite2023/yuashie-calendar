@@ -17,8 +17,12 @@
 - [x] 第四步：Apple Calendar 在同一订阅下识别恢复事件（用户反馈「又回来了」；2026-10-29）
 - [ ] 第四步：Apple Calendar 最终取消同步、自动刷新及其他客户端验收
 - [ ] 第四步：Google Calendar 订阅和更新验证
-- [ ] 真实数据源
-- [ ] 订阅地址与网站入口
+- [x] 真实来源第一批：AniList 日本 TV 动漫（174 个未来分集事件，2026-10-29 首次发布）
+- [x] 真实动漫单独 start/span 订阅路径与 GitHub Actions 定期采集、持久化 UUID/修订号
+- [ ] 真实动漫 Apple / Google Calendar 实机订阅及更新验证
+- [ ] 四款游戏的真实前瞻/版本/卡池来源
+- [ ] 新游戏发售数据源
+- [ ] 动态组合订阅 API（主站当前仍为演示）；主站独立动漫订阅入口已提交
 
 ## 第一步：已形成设计基线
 
@@ -36,11 +40,17 @@
 
 已选择 GitHub Pages 并提交公开虚构 ICS 的 Actions 工作流，CI 中已执行 39 项测试、生成 12 份 ICS，公开文件校验通过。仓库所有者已启用 Pages，2026-10-08 第二次运行获得 GitHub Actions 部署成功。测试入口：[yuashie-calendar GitHub Pages](https://southkite2023.github.io/yuashie-calendar/)；但当前环境无法独立访问该域名，尚未确认线上 HTTP 状态及 Content-Type。2026-10-08 已收到 Apple Calendar 桌面月视图截图：2030-01-25 20:00 原神前瞻、2030-01-30 11:00 版本和两个卡池及延续到 02-20 14:59 的 span 长条正常可见（用户操作为订阅 URL）。这属于 Apple Calendar 的基础展示验收，不能据此认定自动刷新、取消、改期或 Google Calendar 已验证。已在独立 `lifecycle-test` URL 上部署固定快照回放式测试流程，可安全测试同 UID 改期、延期、恢复、取消；等待客户端订阅后再逐阶段推进，不能用它替代生产持久化。详见 [GitHub Pages 测试说明](test-pages.md)。之后才接真实数据源。
 
+## 第五步：真实数据第一批已完成
+
+已接入 AniList GraphQL API（无需个人 Token）并在 [2026-10-29 工作流](https://github.com/southkite2023/yuashie-calendar/actions/runs/40840186011) 中成功抓取、校验、发布 174 个近两周日本 TV 动漫分集事件。发布路径 `/calendar/real/v1/anime/{start|span}.ics`，并与所有虚构测试 Feed 隔离；已将状态快照提交至仓库的 `data/real/anime-events.json`，保留 UUIDv4、SEQUENCE 与更新检查信息。GitHub Actions 计划 00:37、12:37 UTC 定时运行。数据仅供参考，不表示日本电视台官方确认。详细来源、许可与限制见 [真实动漫接入说明](real-anime.md)。
+
+**仍未完成**：四款游戏及新游发售真实采集、按单个番剧筛选、任意组合订阅、真实动漫客户端同步验收；不能把虚构测试的 Apple 日历成功视作这些功能的验收。
+
 ## 初版边界
 
 按四款游戏、动漫、新游发售生成六类基础订阅源，每类 start / span 两种模式，共 12 个文件；路径契约见事件规范。任意组合订阅的实现方式另外设计，不能仅靠前端勾选就让静态服务器自动生成任意组合文件。
 
-测试阶段暂不实现账号系统、用户数据库、个性化 token、爬虫或生产 Feed API；已上线的仅是固定虚构样例静态文件，并非正式线上订阅服务。
+目前不实现账号系统、用户数据库、个性化 Token 或动态组合 API；**除固定虚构测试源外，已上线的是 AniList 来源的真实日本 TV 动漫静态 ICS**。对游戏与新游戏发售不能使用此真实源冒充完整覆盖。
 
 ## 候选数据源（待核实）
 
