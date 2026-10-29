@@ -1,4 +1,5573 @@
 {
   "schema_version": 1,
-  "events": []
+  "events": [
+    {
+      "id": "b06f6026-7ce9-41e3-aa28-0e4d1239c4f2",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "シルバニアファミリー フレアのカラフル・エブリデイ · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-10-29T19:19:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/218942",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "218942:5",
+          "url": "https://anilist.co/anime/218942",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:218942",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "7e07bf09-eaf3-4c95-9923-36b17117d76d",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "FX戦士くるみちゃん · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-10-29T21:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/206401",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "206401:5",
+          "url": "https://anilist.co/anime/206401",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:206401",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "5592df8b-785d-4f47-bbc7-646a37152172",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "ガールズ＆パンツァー もっとらぶらぶ作戦です！ · 第 4 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-10-29T23:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/188034",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "188034:4",
+          "url": "https://anilist.co/anime/188034",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:188034",
+        "episode_id": "4",
+        "episode_label": "第 4 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "c703a229-a207-4bb3-b0c7-35c313f9d2ba",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "氷の城壁 第2期 · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-10-29T23:56:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/213805",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "213805:5",
+          "url": "https://anilist.co/anime/213805",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:213805",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "06175923-430e-411d-8f1f-57ada656f294",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "傷だらけ聖女より報復をこめて Season2 · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-10-30T00:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/212144",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "212144:5",
+          "url": "https://anilist.co/anime/212144",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:212144",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "1b722128-dc8a-4f88-bea2-b7751d1e3126",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "てつりょー！meet with 鉄道むすめ · 第 4 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-10-30T00:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/199594",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "199594:4",
+          "url": "https://anilist.co/anime/199594",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:199594",
+        "episode_id": "4",
+        "episode_label": "第 4 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "83efce9d-a895-412a-8621-8ab98cdf18bb",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "ゆうさんち！from 遊ハち · 第 8 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-10-30T00:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/214593",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "214593:8",
+          "url": "https://anilist.co/anime/214593",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:214593",
+        "episode_id": "8",
+        "episode_label": "第 8 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "5f8a263f-2d6d-4fc4-8a7d-848b64623f97",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "追放された転生重騎士はゲーム知識で無双する · 第 18 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-10-30T00:26:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/180136",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "180136:18",
+          "url": "https://anilist.co/anime/180136",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:180136",
+        "episode_id": "18",
+        "episode_label": "第 18 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "964c0e61-038e-4874-a924-0e8180609c05",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "冰剣の魔術師が世界を統べるⅡ · 第 4 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-10-30T01:28:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/212503",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "212503:4",
+          "url": "https://anilist.co/anime/212503",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:212503",
+        "episode_id": "4",
+        "episode_label": "第 4 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "7f860cec-7d21-453d-b775-5d648ae1abf8",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "マゼンチュ · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-10-30T09:50:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/217577",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "217577:5",
+          "url": "https://anilist.co/anime/217577",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:217577",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "d0b22cb5-b9dc-4ef1-8597-8bae0ee7f60a",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "パンどろぼう · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-10-30T18:40:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/194207",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "194207:5",
+          "url": "https://anilist.co/anime/194207",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:194207",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "c65b61f5-7194-4ee5-9919-7bf9e7f9427a",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "ポケットモンスター (2023) · 第 155 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-10-30T18:55:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/158871",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "158871:155",
+          "url": "https://anilist.co/anime/158871",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:158871",
+        "episode_id": "155",
+        "episode_label": "第 155 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "9b27aa57-a003-4f48-a061-f67447132461",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "BEYBLADE X · 第 138 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-10-30T19:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/165159",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "165159:138",
+          "url": "https://anilist.co/anime/165159",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:165159",
+        "episode_id": "138",
+        "episode_label": "第 138 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "da41eece-3c6b-40d0-9f94-d2fe15b8f5b5",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "蒼き伝承 ウェルシュ&シェーダー · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-10-30T21:26:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/216895",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "216895:5",
+          "url": "https://anilist.co/anime/216895",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:216895",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "ebdaad27-4e84-447b-9269-1a9dd6c5b256",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "とある暗部の少女共棲 · 第 4 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-10-30T22:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/186742",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "186742:4",
+          "url": "https://anilist.co/anime/186742",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:186742",
+        "episode_id": "4",
+        "episode_label": "第 4 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "93f07a42-6e64-4cb2-a710-94a5a92c4834",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "薬屋のひとりごと 第3期 · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-10-30T23:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/195516",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "195516:5",
+          "url": "https://anilist.co/anime/195516",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:195516",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "3d81d5d7-0a47-4bbd-9c67-baf6599cd9df",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "ホタルの嫁入り · 第 4 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-10-30T23:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/205909",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "205909:4",
+          "url": "https://anilist.co/anime/205909",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:205909",
+        "episode_id": "4",
+        "episode_label": "第 4 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "9b16c53f-1d24-43bf-a693-cb62069c221b",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "桃源暗鬼 日光・華厳の滝編 · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-10-30T23:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/204650",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "204650:5",
+          "url": "https://anilist.co/anime/204650",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:204650",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "2f476c07-96e0-4e7c-bca3-469918ba8e88",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "うちの弟どもがすみません · 第 17 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-10-31T00:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/203490",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "203490:17",
+          "url": "https://anilist.co/anime/203490",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:203490",
+        "episode_id": "17",
+        "episode_label": "第 17 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "5df815e0-2281-49f6-9f11-a43290f7a2b5",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "東京リベンジャーズ 三天戦争編 · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-10-31T01:53:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/178083",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "178083:5",
+          "url": "https://anilist.co/anime/178083",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:178083",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "77180d49-88be-4eb1-b42c-69162f5b756c",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "ごーすと・みーつ・ぎゃる！ · 第 9 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-10-31T08:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/214703",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "214703:9",
+          "url": "https://anilist.co/anime/214703",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:214703",
+        "episode_id": "9",
+        "episode_label": "第 9 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "bd4be89d-4923-482b-8a10-fb5c03f3219b",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "パンの赤ちゃん · 第 18 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-10-31T08:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/212308",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "212308:18",
+          "url": "https://anilist.co/anime/212308",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:212308",
+        "episode_id": "18",
+        "episode_label": "第 18 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "b2b0edf4-832f-41de-86ba-8423f8a49c55",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "リラックマ · 第 30 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-10-31T09:26:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/183231",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "183231:30",
+          "url": "https://anilist.co/anime/183231",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:183231",
+        "episode_id": "30",
+        "episode_label": "第 30 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "437b1034-d66e-40c8-96d0-6f63f522c768",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "ケロロ軍曹☆ · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-10-31T09:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/216557",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "216557:5",
+          "url": "https://anilist.co/anime/216557",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:216557",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "e0f906e7-9de9-47ab-8eb5-39ce2af5d0cd",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "ねずみくんのチョッキ (TV) 第2期 · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-10-31T09:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/214968",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "214968:5",
+          "url": "https://anilist.co/anime/214968",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:214968",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "05681dc9-2b26-4e8e-93b1-6d86adb5df73",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "しろたん · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-10-31T16:29:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/209709",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "209709:5",
+          "url": "https://anilist.co/anime/209709",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:209709",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "f3cf443b-5dee-42a4-851c-f18263df4f76",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "クレヨンしんちゃん · 第 1359 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-10-31T16:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/966",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "966:1359",
+          "url": "https://anilist.co/anime/966",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:966",
+        "episode_id": "1359",
+        "episode_label": "第 1359 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "e23115db-6278-40be-aca9-bc21cfd56c70",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "ドラえもん (2005) · 第 939 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-10-31T17:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/8687",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "8687:939",
+          "url": "https://anilist.co/anime/8687",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:8687",
+        "episode_id": "939",
+        "episode_label": "第 939 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "d6af23f8-d4d0-4eec-bd73-72ccaacef54b",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "朱色の仮面 · 第 4 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-10-31T17:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/195571",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "195571:4",
+          "url": "https://anilist.co/anime/195571",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:195571",
+        "episode_id": "4",
+        "episode_label": "第 4 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "805654f1-be3b-451d-8af8-9f52f9722fac",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "名探偵コナン · 第 1218 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-10-31T18:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/235",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "235:1218",
+          "url": "https://anilist.co/anime/235",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:235",
+        "episode_id": "1218",
+        "episode_label": "第 1218 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "7c1451eb-626a-42d6-9bf7-5331f4fcb0c0",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "マロニエ王国の七人の騎士 · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-10-31T18:25:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/212799",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "212799:5",
+          "url": "https://anilist.co/anime/212799",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:212799",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "0abe082a-6129-4bc1-b16e-4a9866965694",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "ブラッククローバー 第2期 · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-10-31T23:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/195604",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "195604:5",
+          "url": "https://anilist.co/anime/195604",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:195604",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "26fc055d-c456-4a42-bc07-1963fd8425c2",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "#ゾンビさがしてます · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-10-31T23:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/199007",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "199007:5",
+          "url": "https://anilist.co/anime/199007",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:199007",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "e266f44f-ed98-4285-a327-518439beb268",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "バーテックスフォース · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-10-31T23:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/209562",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "209562:5",
+          "url": "https://anilist.co/anime/209562",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:209562",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "2d4d9ceb-007e-44bf-aa7b-eb8879ca06f5",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "恐怖コレクター · 第 4 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-10-31T23:45:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/203473",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "203473:4",
+          "url": "https://anilist.co/anime/203473",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:203473",
+        "episode_id": "4",
+        "episode_label": "第 4 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "4e34a4ad-cc0a-4bd9-839b-501a694c7265",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "生徒会にも穴はある！ · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-01T00:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/191656",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "191656:5",
+          "url": "https://anilist.co/anime/191656",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:191656",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "bd68042f-477f-4c11-9620-ad953a9889fe",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "らんま1/2 (2024) 第3期 · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-01T00:56:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/209872",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "209872:5",
+          "url": "https://anilist.co/anime/209872",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:209872",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "8126db96-8166-466c-9cc2-012e0e5e4eaa",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "貸した魔力は【リボ払い】で強制徴収 · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-01T01:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/202250",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "202250:5",
+          "url": "https://anilist.co/anime/202250",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:202250",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "8a790797-a6e4-4fdc-bcb4-e1413ff85ec5",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "タヌキとキツネ · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-01T07:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/218011",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "218011:5",
+          "url": "https://anilist.co/anime/218011",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:218011",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "b8ebed08-3f37-4878-924e-d5c40a6980e2",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "ゆるゆる図鑑 · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-01T07:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/213298",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "213298:5",
+          "url": "https://anilist.co/anime/213298",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:213298",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "f574433c-6b8a-4bb7-9a5f-dde0892d8878",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "おでかけ子ザメ シーズン2 · 第 30 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-01T07:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/204269",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "204269:30",
+          "url": "https://anilist.co/anime/204269",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:204269",
+        "episode_id": "30",
+        "episode_label": "第 30 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "605eddd2-c581-4f93-ab1a-71b77a06e7c8",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "コウペンちゃん · 第 83 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-01T08:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/185646",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "185646:83",
+          "url": "https://anilist.co/anime/185646",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:185646",
+        "episode_id": "83",
+        "episode_label": "第 83 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "debc8570-0659-4e6b-9b7b-e24ec5de7717",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "ぷにるんず ぷに４ · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-01T09:16:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/216860",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "216860:5",
+          "url": "https://anilist.co/anime/216860",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:216860",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "7035adcf-c4d8-4a59-a845-c07a09fa1c98",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "おねがいアイプリ · 第 31 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-01T09:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/206523",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "206523:31",
+          "url": "https://anilist.co/anime/206523",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:206523",
+        "episode_id": "31",
+        "episode_label": "第 31 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "cc82d5eb-0ac3-4421-9ab8-46eadc4ad358",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "ポップパップポルターズ · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-01T10:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/217787",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "217787:5",
+          "url": "https://anilist.co/anime/217787",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:217787",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "8ee56b56-b3f4-45a9-a086-89072fbf41cd",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "夜桜さんちの大作戦 第2期 第2クール · 第 4 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-01T17:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/213657",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "213657:4",
+          "url": "https://anilist.co/anime/213657",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:213657",
+        "episode_id": "4",
+        "episode_label": "第 4 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "bf877f52-a820-4e1a-a7a2-3208f88ef39d",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "アオアシ 第2期 · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-01T17:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/191788",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "191788:5",
+          "url": "https://anilist.co/anime/191788",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:191788",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "39a10384-7f88-456c-ab41-fef1bb210a20",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "ダイヤのA actⅡ -Second Season- 第2クール · 第 4 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-01T17:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/213658",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "213658:4",
+          "url": "https://anilist.co/anime/213658",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:213658",
+        "episode_id": "4",
+        "episode_label": "第 4 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "e7072768-e810-41fc-aa80-db2b46a0921c",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "サザエさん · 第 2856 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-01T18:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/2406",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "2406:2856",
+          "url": "https://anilist.co/anime/2406",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:2406",
+        "episode_id": "2856",
+        "episode_label": "第 2856 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "fe9a33c2-9d9f-4991-86c9-29b4c21dfc38",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "目覚めたら最強装備と宇宙船持ちだったので、一戸建て目指して傭兵として自由に生きたい · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-01T21:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/186541",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "186541:5",
+          "url": "https://anilist.co/anime/186541",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:186541",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "0a89c860-5861-4613-8c59-429537d4b682",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "おじさんはカワイイものがお好き。 · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-01T22:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/202079",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "202079:5",
+          "url": "https://anilist.co/anime/202079",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:202079",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "95d54e02-2d89-4f40-9dc7-a51eeb436f1a",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "魔法の姉妹ルルットリリィ 第2クール · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-01T22:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/209032",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "209032:5",
+          "url": "https://anilist.co/anime/209032",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:209032",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "74083bb9-af57-4391-8ec2-f0a0308a3305",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "TANK CHAIR-戦車椅子- · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-01T23:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/209499",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "209499:5",
+          "url": "https://anilist.co/anime/209499",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:209499",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "431c42be-ee61-4146-bb32-51151c46e820",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "ドラゴンボール超 ビルス · 第 4 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-01T23:16:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/206814",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "206814:4",
+          "url": "https://anilist.co/anime/206814",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:206814",
+        "episode_id": "4",
+        "episode_label": "第 4 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "1b9d5c56-4fda-424f-b829-a1f313cff170",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "信者ゼロの女神サマと始める異世界攻略 · 第 4 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-01T23:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/205896",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "205896:4",
+          "url": "https://anilist.co/anime/205896",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:205896",
+        "episode_id": "4",
+        "episode_label": "第 4 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "50de2ffb-cce6-45a3-bf9c-9643818ea5d6",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "転生貴族、鑑定スキルで成り上がる 第3期 · 第 6 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-01T23:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/185756",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "185756:6",
+          "url": "https://anilist.co/anime/185756",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:185756",
+        "episode_id": "6",
+        "episode_label": "第 6 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "62719ec1-7360-41a9-acef-79213eb36eda",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "弱気MAX令嬢なのに、辣腕婚約者様の賭けに乗ってしまった · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-01T23:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/200455",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "200455:5",
+          "url": "https://anilist.co/anime/200455",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:200455",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "5aa443cd-2268-430a-bec1-0cfff20a66a0",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "ホテル・インヒューマンズ 第2期 · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-01T23:45:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/199426",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "199426:5",
+          "url": "https://anilist.co/anime/199426",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:199426",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "45428f20-60eb-4e0a-bd5c-7b294ff55321",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "彼方から · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-02T00:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/209463",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "209463:5",
+          "url": "https://anilist.co/anime/209463",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:209463",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "4db25801-7f09-44d9-b215-ded217bf7c83",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "マウスカーソルで現実を操作できるようになったので、女の子をいっぱいクリックしまーす · 第 4 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-02T01:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/206774",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "206774:4",
+          "url": "https://anilist.co/anime/206774",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:206774",
+        "episode_id": "4",
+        "episode_label": "第 4 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "ac3c2aea-894b-4d4c-bfee-7475b683915e",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "彼女の友達 · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-02T01:05:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/211877",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "211877:5",
+          "url": "https://anilist.co/anime/211877",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:211877",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "a63ef843-6ed9-4728-be92-8ca5032e6a82",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "彼女の友達 ミニアニメ劇場 · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-02T01:17:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/217782",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "217782:5",
+          "url": "https://anilist.co/anime/217782",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:217782",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "5cfed1d5-3c32-4adc-96e0-ed6930995667",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "ダークサモナーとデキている · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-02T01:20:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/208025",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "208025:5",
+          "url": "https://anilist.co/anime/208025",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:208025",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "7e95e45a-b00d-4f77-8488-a15ec483ca31",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "JKダークサモナーとデキ。。。。。。でいない!? · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-02T03:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/218217",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "218217:5",
+          "url": "https://anilist.co/anime/218217",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:218217",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "1818c754-b8f9-40a8-a9c6-6b4a387dfb20",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "ゆうさんち！from 遊ハち · 第 9 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-02T11:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/214593",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "214593:9",
+          "url": "https://anilist.co/anime/214593",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:214593",
+        "episode_id": "9",
+        "episode_label": "第 9 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "3adfffb6-01a6-47ac-9b2c-d16485e497e0",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "どうも、好きな人に惚れ薬を依頼された魔女です。 · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-02T21:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/207191",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "207191:5",
+          "url": "https://anilist.co/anime/207191",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:207191",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "bb48b019-5518-4dfa-917e-e88c2e3471f2",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "魔法少女育成計画 restart · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-03T02:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/160803",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "160803:5",
+          "url": "https://anilist.co/anime/160803",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:160803",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "8370e139-18d8-4a12-892c-4391654d25db",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "凶乱令嬢ニア・リストン · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-03T21:26:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/206949",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "206949:5",
+          "url": "https://anilist.co/anime/206949",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:206949",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "e88cc878-7e43-461c-8473-74ac37b632e4",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "塩対応の佐藤さんが俺にだけ甘い · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-03T22:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/209502",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "209502:5",
+          "url": "https://anilist.co/anime/209502",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:209502",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "1d21dcad-35ad-4a23-9669-16ec43470059",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "千歳くんはラムネ瓶のなか 2クール · 第 4 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-03T23:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/198727",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "198727:4",
+          "url": "https://anilist.co/anime/198727",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:198727",
+        "episode_id": "4",
+        "episode_label": "第 4 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "2602ce80-4a77-4e35-8207-fb5b140aa67c",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "Battle Spirits [Re] 絶界の空 · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-03T23:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/187990",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "187990:5",
+          "url": "https://anilist.co/anime/187990",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:187990",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "a399921e-723d-4830-a43e-ed5dceff0a01",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "超巡！超条先輩 · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-03T23:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/200294",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "200294:5",
+          "url": "https://anilist.co/anime/200294",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:200294",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "d2d55b7f-fc03-490a-a3d4-e5a15c30da69",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "幻想水滸伝 · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-03T23:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/187316",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "187316:5",
+          "url": "https://anilist.co/anime/187316",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:187316",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "8cd761a1-38bc-4651-bbd7-6be8ed7b048d",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "追放されたチート付与魔術師は気ままなセカンドライフを謳歌する。　～俺は武器だけじゃなく、あらゆるものに『強化ポイント』を付与できるし、俺の意思でいつでも効果を解除できるけど、残った人たち大丈夫？～ · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-04T00:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/207329",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "207329:5",
+          "url": "https://anilist.co/anime/207329",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:207329",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "f7f9f9a2-b441-4ae7-a9fe-279370a666ce",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "天は赤い河のほとり · 第 18 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-04T01:35:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/207809",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "207809:18",
+          "url": "https://anilist.co/anime/207809",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:207809",
+        "episode_id": "18",
+        "episode_label": "第 18 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "78fc5328-1a7f-45a8-a09c-ab443c664fe3",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "DARK MACHINE -The Animation- · 第 4 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-04T01:45:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/179876",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "179876:4",
+          "url": "https://anilist.co/anime/179876",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:179876",
+        "episode_id": "4",
+        "episode_label": "第 4 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "cdadc376-1559-41e2-a83e-4106135d4c0f",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "探偵はもう、死んでいる。Season2 · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-04T21:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/152677",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "152677:5",
+          "url": "https://anilist.co/anime/152677",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:152677",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "986f6752-eceb-42a8-a265-45c54b3efd0a",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "ゲルぴよ 2 · 第 3 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-04T21:54:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/217282",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "217282:3",
+          "url": "https://anilist.co/anime/217282",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:217282",
+        "episode_id": "3",
+        "episode_label": "第 3 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "5313a3a5-0ac2-46bc-a364-22063c0d747b",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "佐々木とピーちゃん シーズン２ · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-04T22:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/176314",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "176314:5",
+          "url": "https://anilist.co/anime/176314",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:176314",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "5bc2983e-2e53-4035-b013-f57bf8baff96",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "世界最強の魔女、始めました · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-04T22:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/211778",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "211778:5",
+          "url": "https://anilist.co/anime/211778",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:211778",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "a5eb6ff8-1805-4239-9bf7-a7394e75115d",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "魔法騎士レイアース (2026) · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-04T23:46:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/178868",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "178868:5",
+          "url": "https://anilist.co/anime/178868",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:178868",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "66d8c889-b7b6-4f08-908b-9d3690bf6a07",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "新テニスの王子様 U-17 WORLD CUP 決勝メンバー決定戦 · 第 6 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-05T00:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/199068",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "199068:6",
+          "url": "https://anilist.co/anime/199068",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:199068",
+        "episode_id": "6",
+        "episode_label": "第 6 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "52e3e3ed-3d33-49bc-a0f4-53c0434a09f0",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "獣王武神ダンデヴァイン · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-05T00:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/213068",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "213068:5",
+          "url": "https://anilist.co/anime/213068",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:213068",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "b7e708e3-a91e-4a05-b997-78d41edabe4d",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "帰還者の魔法は特別です 第2期 · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-05T00:45:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/172192",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "172192:5",
+          "url": "https://anilist.co/anime/172192",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:172192",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "07b7531d-3ede-4bc2-9718-4a5dbd72c48d",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "シルバニアファミリー フレアのカラフル・エブリデイ · 第 6 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-05T19:19:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/218942",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "218942:6",
+          "url": "https://anilist.co/anime/218942",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:218942",
+        "episode_id": "6",
+        "episode_label": "第 6 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "6b539688-4c4f-4ce1-a457-6f0118e6f714",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "FX戦士くるみちゃん · 第 6 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-05T21:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/206401",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "206401:6",
+          "url": "https://anilist.co/anime/206401",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:206401",
+        "episode_id": "6",
+        "episode_label": "第 6 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "af64857d-cdbe-4c69-9fc4-52cfce203c2b",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "ガールズ＆パンツァー もっとらぶらぶ作戦です！ · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-05T23:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/188034",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "188034:5",
+          "url": "https://anilist.co/anime/188034",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:188034",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "d6e3ee5c-98aa-445d-9ed5-333e033c9713",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "氷の城壁 第2期 · 第 6 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-05T23:56:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/213805",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "213805:6",
+          "url": "https://anilist.co/anime/213805",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:213805",
+        "episode_id": "6",
+        "episode_label": "第 6 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "398f982a-c257-4d2b-a943-02022350865f",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "てつりょー！meet with 鉄道むすめ · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-06T00:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/199594",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "199594:5",
+          "url": "https://anilist.co/anime/199594",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:199594",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "a20d7a90-a8f3-4425-ba51-4d56b1335e5e",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "傷だらけ聖女より報復をこめて Season2 · 第 6 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-06T00:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/212144",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "212144:6",
+          "url": "https://anilist.co/anime/212144",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:212144",
+        "episode_id": "6",
+        "episode_label": "第 6 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "d50a65b8-c548-4525-a75a-0f8732c1df0b",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "ゆうさんち！from 遊ハち · 第 10 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-06T00:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/214593",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "214593:10",
+          "url": "https://anilist.co/anime/214593",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:214593",
+        "episode_id": "10",
+        "episode_label": "第 10 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "74f931a2-b40e-482f-95cb-305bce411d52",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "追放された転生重騎士はゲーム知識で無双する · 第 19 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-06T00:26:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/180136",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "180136:19",
+          "url": "https://anilist.co/anime/180136",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:180136",
+        "episode_id": "19",
+        "episode_label": "第 19 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "34a7d344-887d-448c-9d21-588f957c653e",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "冰剣の魔術師が世界を統べるⅡ · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-06T01:28:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/212503",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "212503:5",
+          "url": "https://anilist.co/anime/212503",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:212503",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "313b22b4-920a-4321-9da8-93fcb3d05b3c",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "マゼンチュ · 第 6 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-06T09:50:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/217577",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "217577:6",
+          "url": "https://anilist.co/anime/217577",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:217577",
+        "episode_id": "6",
+        "episode_label": "第 6 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "ec7773df-2c0f-4191-ad8c-73e86395e194",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "デモンズ・クレスト · 第 1 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-06T11:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/203275",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "203275:1",
+          "url": "https://anilist.co/anime/203275",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:203275",
+        "episode_id": "1",
+        "episode_label": "第 1 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "2651af64-983f-41b4-a407-5c2eae0b70b9",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "パンどろぼう · 第 6 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-06T18:40:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/194207",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "194207:6",
+          "url": "https://anilist.co/anime/194207",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:194207",
+        "episode_id": "6",
+        "episode_label": "第 6 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "4ce2ef4c-0b11-45f8-b20f-6336c82728a4",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "ポケットモンスター (2023) · 第 156 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-06T18:55:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/158871",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "158871:156",
+          "url": "https://anilist.co/anime/158871",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:158871",
+        "episode_id": "156",
+        "episode_label": "第 156 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "9b11df17-e05b-4fd6-a680-823040cf6dfc",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "BEYBLADE X · 第 139 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-06T19:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/165159",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "165159:139",
+          "url": "https://anilist.co/anime/165159",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:165159",
+        "episode_id": "139",
+        "episode_label": "第 139 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "a316b5f2-d2b8-41ba-ac2a-83a8ae32d4cf",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "蒼き伝承 ウェルシュ&シェーダー · 第 6 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-06T21:26:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/216895",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "216895:6",
+          "url": "https://anilist.co/anime/216895",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:216895",
+        "episode_id": "6",
+        "episode_label": "第 6 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "614b27a1-0558-4f08-8b42-a3ffd6a0202c",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "とある暗部の少女共棲 · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-06T22:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/186742",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "186742:5",
+          "url": "https://anilist.co/anime/186742",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:186742",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "88c01553-efd4-4e43-ac74-a994b777da25",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "薬屋のひとりごと 第3期 · 第 6 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-06T23:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/195516",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "195516:6",
+          "url": "https://anilist.co/anime/195516",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:195516",
+        "episode_id": "6",
+        "episode_label": "第 6 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "5e843235-b200-4614-b59f-9411742be7a5",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "桃源暗鬼 日光・華厳の滝編 · 第 6 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-06T23:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/204650",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "204650:6",
+          "url": "https://anilist.co/anime/204650",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:204650",
+        "episode_id": "6",
+        "episode_label": "第 6 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "828320ba-04d1-42e1-b255-81fdbf0e2625",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "ホタルの嫁入り · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-06T23:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/205909",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "205909:5",
+          "url": "https://anilist.co/anime/205909",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:205909",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "38656771-b197-4389-9580-65731f5a1fd2",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "うちの弟どもがすみません · 第 18 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-07T00:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/203490",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "203490:18",
+          "url": "https://anilist.co/anime/203490",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:203490",
+        "episode_id": "18",
+        "episode_label": "第 18 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "7267dcbc-bcb5-4b3b-b0ff-d75a6ba7dd99",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "東京リベンジャーズ 三天戦争編 · 第 6 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-07T01:53:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/178083",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "178083:6",
+          "url": "https://anilist.co/anime/178083",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:178083",
+        "episode_id": "6",
+        "episode_label": "第 6 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "c519e96e-ca25-4b3d-9dca-3fcf5db661db",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "ごーすと・みーつ・ぎゃる！ · 第 10 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-07T08:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/214703",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "214703:10",
+          "url": "https://anilist.co/anime/214703",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:214703",
+        "episode_id": "10",
+        "episode_label": "第 10 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "9e49dc6c-771b-4d0e-9b9e-4f81fc083fb2",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "パンの赤ちゃん · 第 19 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-07T08:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/212308",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "212308:19",
+          "url": "https://anilist.co/anime/212308",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:212308",
+        "episode_id": "19",
+        "episode_label": "第 19 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "6ea5ac7f-0df9-45cb-95fa-3cbd3dc009f3",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "リラックマ · 第 31 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-07T09:26:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/183231",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "183231:31",
+          "url": "https://anilist.co/anime/183231",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:183231",
+        "episode_id": "31",
+        "episode_label": "第 31 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "5536284a-54fd-40ee-9621-75fb10d17b51",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "ねずみくんのチョッキ (TV) 第2期 · 第 6 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-07T09:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/214968",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "214968:6",
+          "url": "https://anilist.co/anime/214968",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:214968",
+        "episode_id": "6",
+        "episode_label": "第 6 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "72154ad8-d4fa-48aa-a391-b07494a5add1",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "ケロロ軍曹☆ · 第 6 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-07T09:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/216557",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "216557:6",
+          "url": "https://anilist.co/anime/216557",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:216557",
+        "episode_id": "6",
+        "episode_label": "第 6 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "853e800a-836a-4d57-aa46-bfbb77f554b8",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "しろたん · 第 6 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-07T16:29:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/209709",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "209709:6",
+          "url": "https://anilist.co/anime/209709",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:209709",
+        "episode_id": "6",
+        "episode_label": "第 6 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "c5f6765e-2925-43bb-8ce5-625b0a266071",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "クレヨンしんちゃん · 第 1360 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-07T16:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/966",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "966:1360",
+          "url": "https://anilist.co/anime/966",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:966",
+        "episode_id": "1360",
+        "episode_label": "第 1360 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "f34f0b5e-1ea5-4ffd-80f7-6a8a3aae7576",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "ドラえもん (2005) · 第 940 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-07T17:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/8687",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "8687:940",
+          "url": "https://anilist.co/anime/8687",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:8687",
+        "episode_id": "940",
+        "episode_label": "第 940 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "cd71c56d-4043-4e5a-97b3-c40c08ec2c2e",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "朱色の仮面 · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-07T17:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/195571",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "195571:5",
+          "url": "https://anilist.co/anime/195571",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:195571",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "f143df2a-eb6d-4aff-ae88-e05a7adc149e",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "名探偵コナン · 第 1219 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-07T18:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/235",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "235:1219",
+          "url": "https://anilist.co/anime/235",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:235",
+        "episode_id": "1219",
+        "episode_label": "第 1219 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "b10fbcff-82fb-43d4-919e-e29abd8394c7",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "マロニエ王国の七人の騎士 · 第 6 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-07T18:25:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/212799",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "212799:6",
+          "url": "https://anilist.co/anime/212799",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:212799",
+        "episode_id": "6",
+        "episode_label": "第 6 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "0887a34c-c712-4062-a547-d8e18fd044c5",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "ブラッククローバー 第2期 · 第 6 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-07T23:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/195604",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "195604:6",
+          "url": "https://anilist.co/anime/195604",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:195604",
+        "episode_id": "6",
+        "episode_label": "第 6 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "badc3fab-43cc-4a5b-b718-d5892a476139",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "#ゾンビさがしてます · 第 6 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-07T23:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/199007",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "199007:6",
+          "url": "https://anilist.co/anime/199007",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:199007",
+        "episode_id": "6",
+        "episode_label": "第 6 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "c2dddc1b-bba3-497c-8c31-da3c9f21e707",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "バーテックスフォース · 第 6 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-07T23:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/209562",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "209562:6",
+          "url": "https://anilist.co/anime/209562",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:209562",
+        "episode_id": "6",
+        "episode_label": "第 6 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "f50be8c2-968a-4024-a464-6930b8f52962",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "カードファイト!! ヴァンガード Divinez 運命星戦編 · 第 1 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-07T23:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/214536",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "214536:1",
+          "url": "https://anilist.co/anime/214536",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:214536",
+        "episode_id": "1",
+        "episode_label": "第 1 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "89afcbcf-bd3d-4b06-af40-3257ab16b072",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "恐怖コレクター · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-07T23:45:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/203473",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "203473:5",
+          "url": "https://anilist.co/anime/203473",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:203473",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "a51d4daf-d3d6-47be-ba33-1579544f1c32",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "生徒会にも穴はある！ · 第 6 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-08T00:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/191656",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "191656:6",
+          "url": "https://anilist.co/anime/191656",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:191656",
+        "episode_id": "6",
+        "episode_label": "第 6 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "9bfabb89-2558-47b2-8b56-826e9fffb5e5",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "らんま1/2 (2024) 第3期 · 第 6 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-08T00:56:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/209872",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "209872:6",
+          "url": "https://anilist.co/anime/209872",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:209872",
+        "episode_id": "6",
+        "episode_label": "第 6 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "6c872759-037f-4614-a282-23e6de378e42",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "貸した魔力は【リボ払い】で強制徴収 · 第 6 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-08T01:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/202250",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "202250:6",
+          "url": "https://anilist.co/anime/202250",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:202250",
+        "episode_id": "6",
+        "episode_label": "第 6 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "8b34d810-1ada-40dd-9e95-127916247426",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "ゆるゆる図鑑 · 第 6 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-08T07:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/213298",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "213298:6",
+          "url": "https://anilist.co/anime/213298",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:213298",
+        "episode_id": "6",
+        "episode_label": "第 6 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "f12b54ae-6b5c-44bc-849b-2c71ba6319da",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "おでかけ子ザメ シーズン2 · 第 31 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-08T07:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/204269",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "204269:31",
+          "url": "https://anilist.co/anime/204269",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:204269",
+        "episode_id": "31",
+        "episode_label": "第 31 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "f5ea8273-3ebe-4b62-a5c9-d867df662259",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "タヌキとキツネ · 第 6 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-08T07:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/218011",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "218011:6",
+          "url": "https://anilist.co/anime/218011",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:218011",
+        "episode_id": "6",
+        "episode_label": "第 6 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "bdfcfac6-b2b8-42f9-970d-1e28ccf00648",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "コウペンちゃん · 第 84 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-08T08:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/185646",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "185646:84",
+          "url": "https://anilist.co/anime/185646",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:185646",
+        "episode_id": "84",
+        "episode_label": "第 84 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "0231bef7-3b06-4f99-bade-a847a633f128",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "名探偵プリキュア！ · 第 40 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-08T08:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/202957",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "202957:40",
+          "url": "https://anilist.co/anime/202957",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:202957",
+        "episode_id": "40",
+        "episode_label": "第 40 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "d0d70df7-6eeb-4bdf-9249-7bfc15c7caa1",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "ぷにるんず ぷに４ · 第 6 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-08T09:16:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/216860",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "216860:6",
+          "url": "https://anilist.co/anime/216860",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:216860",
+        "episode_id": "6",
+        "episode_label": "第 6 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "238337a4-1f19-4d6a-ae10-82a14c629e55",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "おねがいアイプリ · 第 32 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-08T09:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/206523",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "206523:32",
+          "url": "https://anilist.co/anime/206523",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:206523",
+        "episode_id": "32",
+        "episode_label": "第 32 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "913ffac4-207e-428a-897e-2bb6298dbda5",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "ポップパップポルターズ · 第 6 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-08T10:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/217787",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "217787:6",
+          "url": "https://anilist.co/anime/217787",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:217787",
+        "episode_id": "6",
+        "episode_label": "第 6 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "6871579c-3831-4eee-980f-fe796d00c757",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "アオのハコ Season２ · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-08T16:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/189123",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "189123:5",
+          "url": "https://anilist.co/anime/189123",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:189123",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "0949181b-e20d-445d-b629-0bc3a0fff0ec",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "夜桜さんちの大作戦 第2期 第2クール · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-08T17:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/213657",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "213657:5",
+          "url": "https://anilist.co/anime/213657",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:213657",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "2abd27d9-2500-4f1c-9772-7bf5131e1e12",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "アオアシ 第2期 · 第 6 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-08T17:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/191788",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "191788:6",
+          "url": "https://anilist.co/anime/191788",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:191788",
+        "episode_id": "6",
+        "episode_label": "第 6 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "ab03b58b-4a56-4e2b-a741-ba1333726b8f",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "ダイヤのA actⅡ -Second Season- 第2クール · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-08T17:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/213658",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "213658:5",
+          "url": "https://anilist.co/anime/213658",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:213658",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "9055b134-b1aa-4a05-83b5-99a7a6c34718",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "サザエさん · 第 2857 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-08T18:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/2406",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "2406:2857",
+          "url": "https://anilist.co/anime/2406",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:2406",
+        "episode_id": "2857",
+        "episode_label": "第 2857 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "f8b9ff33-7b19-4e0f-aff9-2f22ad08cc42",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "目覚めたら最強装備と宇宙船持ちだったので、一戸建て目指して傭兵として自由に生きたい · 第 6 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-08T21:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/186541",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "186541:6",
+          "url": "https://anilist.co/anime/186541",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:186541",
+        "episode_id": "6",
+        "episode_label": "第 6 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "e6034cbd-4f11-4b55-8f21-e3196ca37b83",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "おじさんはカワイイものがお好き。 · 第 6 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-08T22:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/202079",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "202079:6",
+          "url": "https://anilist.co/anime/202079",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:202079",
+        "episode_id": "6",
+        "episode_label": "第 6 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "ed9e9437-d2aa-4807-b4e5-95c112214f95",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "魔法の姉妹ルルットリリィ 第2クール · 第 6 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-08T22:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/209032",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "209032:6",
+          "url": "https://anilist.co/anime/209032",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:209032",
+        "episode_id": "6",
+        "episode_label": "第 6 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "d0125c81-23c7-4174-8b06-e508f8801c09",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "TANK CHAIR-戦車椅子- · 第 6 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-08T23:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/209499",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "209499:6",
+          "url": "https://anilist.co/anime/209499",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:209499",
+        "episode_id": "6",
+        "episode_label": "第 6 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "e367a676-9fa3-49a7-98a9-983e9444a801",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "ドラゴンボール超 ビルス · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-08T23:16:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/206814",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "206814:5",
+          "url": "https://anilist.co/anime/206814",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:206814",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "12be0b83-f0e9-464b-ba02-fe45f1581234",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "転生貴族、鑑定スキルで成り上がる 第3期 · 第 7 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-08T23:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/185756",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "185756:7",
+          "url": "https://anilist.co/anime/185756",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:185756",
+        "episode_id": "7",
+        "episode_label": "第 7 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "9d618f54-81d9-413d-9342-68d0646601d8",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "信者ゼロの女神サマと始める異世界攻略 · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-08T23:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/205896",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "205896:5",
+          "url": "https://anilist.co/anime/205896",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:205896",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "f7a7918e-ee89-40ca-bfb9-c10273402b1d",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "弱気MAX令嬢なのに、辣腕婚約者様の賭けに乗ってしまった · 第 6 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-08T23:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/200455",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "200455:6",
+          "url": "https://anilist.co/anime/200455",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:200455",
+        "episode_id": "6",
+        "episode_label": "第 6 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "f8fba9dc-cedf-4d3b-bda3-cd56cf3c2fae",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "ホテル・インヒューマンズ 第2期 · 第 6 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-08T23:45:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/199426",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "199426:6",
+          "url": "https://anilist.co/anime/199426",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:199426",
+        "episode_id": "6",
+        "episode_label": "第 6 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "a342b743-24a6-4e5a-abb5-340e39476130",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "彼方から · 第 6 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-09T00:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/209463",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "209463:6",
+          "url": "https://anilist.co/anime/209463",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:209463",
+        "episode_id": "6",
+        "episode_label": "第 6 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "dfbc561f-d20b-46a1-a59f-1d7e518b5f3e",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "マウスカーソルで現実を操作できるようになったので、女の子をいっぱいクリックしまーす · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-09T01:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/206774",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "206774:5",
+          "url": "https://anilist.co/anime/206774",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:206774",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "145e22c9-81be-4785-a076-d2bfff6c019f",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "彼女の友達 · 第 6 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-09T01:05:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/211877",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "211877:6",
+          "url": "https://anilist.co/anime/211877",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:211877",
+        "episode_id": "6",
+        "episode_label": "第 6 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "49ef5fcc-fb06-4f39-a258-251c0af3579b",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "彼女の友達 ミニアニメ劇場 · 第 6 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-09T01:17:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/217782",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "217782:6",
+          "url": "https://anilist.co/anime/217782",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:217782",
+        "episode_id": "6",
+        "episode_label": "第 6 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "3fcdc6d4-3f09-41e1-9a82-a8b01c079d8c",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "ダークサモナーとデキている · 第 6 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-09T01:20:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/208025",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "208025:6",
+          "url": "https://anilist.co/anime/208025",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:208025",
+        "episode_id": "6",
+        "episode_label": "第 6 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "fd747541-70fa-4075-a812-0dcf1c249339",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "JKダークサモナーとデキ。。。。。。でいない!? · 第 6 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-09T03:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/218217",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "218217:6",
+          "url": "https://anilist.co/anime/218217",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:218217",
+        "episode_id": "6",
+        "episode_label": "第 6 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "0561e817-7ece-4698-b80a-d2c7d3b99754",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "ゆうさんち！from 遊ハち · 第 11 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-09T11:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/214593",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "214593:11",
+          "url": "https://anilist.co/anime/214593",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:214593",
+        "episode_id": "11",
+        "episode_label": "第 11 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "79e5300e-98b6-499e-a339-ee38b0cc7f8d",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "どうも、好きな人に惚れ薬を依頼された魔女です。 · 第 6 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-09T21:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/207191",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "207191:6",
+          "url": "https://anilist.co/anime/207191",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:207191",
+        "episode_id": "6",
+        "episode_label": "第 6 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "cce5f3fa-2fa5-403c-834d-d35a245362bd",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "PSYREN -サイレン- · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-09T23:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/204011",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "204011:5",
+          "url": "https://anilist.co/anime/204011",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:204011",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "feb4b5a3-c52e-4388-b548-2a7769808612",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "魔法少女育成計画 restart · 第 6 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-10T02:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/160803",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "160803:6",
+          "url": "https://anilist.co/anime/160803",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:160803",
+        "episode_id": "6",
+        "episode_label": "第 6 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "c6105596-640a-4070-a5db-ca226b660d35",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "凶乱令嬢ニア・リストン · 第 6 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-10T21:26:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/206949",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "206949:6",
+          "url": "https://anilist.co/anime/206949",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:206949",
+        "episode_id": "6",
+        "episode_label": "第 6 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "14d3c886-58c1-499e-a56d-55fd6952c78a",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "塩対応の佐藤さんが俺にだけ甘い · 第 6 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-10T22:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/209502",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "209502:6",
+          "url": "https://anilist.co/anime/209502",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:209502",
+        "episode_id": "6",
+        "episode_label": "第 6 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "2281bff1-2816-455a-be06-4b84fd15dec5",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "超巡！超条先輩 · 第 6 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-10T23:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/200294",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "200294:6",
+          "url": "https://anilist.co/anime/200294",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:200294",
+        "episode_id": "6",
+        "episode_label": "第 6 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "2d9bccd8-7bcb-423d-87de-9bd5ace3fdab",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "千歳くんはラムネ瓶のなか 2クール · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-10T23:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/198727",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "198727:5",
+          "url": "https://anilist.co/anime/198727",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:198727",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "8cd1f239-402d-41a9-b838-8397bb0c02ce",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "Battle Spirits [Re] 絶界の空 · 第 6 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-10T23:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/187990",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "187990:6",
+          "url": "https://anilist.co/anime/187990",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:187990",
+        "episode_id": "6",
+        "episode_label": "第 6 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "2a6785a2-6a08-4d6a-96af-37b2fecdc89e",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "幻想水滸伝 · 第 6 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-10T23:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/187316",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "187316:6",
+          "url": "https://anilist.co/anime/187316",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:187316",
+        "episode_id": "6",
+        "episode_label": "第 6 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "54f5aa06-716d-492b-833d-b5221537df63",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "追放されたチート付与魔術師は気ままなセカンドライフを謳歌する。　～俺は武器だけじゃなく、あらゆるものに『強化ポイント』を付与できるし、俺の意思でいつでも効果を解除できるけど、残った人たち大丈夫？～ · 第 6 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-11T00:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/207329",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "207329:6",
+          "url": "https://anilist.co/anime/207329",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:207329",
+        "episode_id": "6",
+        "episode_label": "第 6 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "e45f02ac-caaa-4040-b74c-1d9341706bda",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "天は赤い河のほとり · 第 19 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-11T01:35:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/207809",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "207809:19",
+          "url": "https://anilist.co/anime/207809",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:207809",
+        "episode_id": "19",
+        "episode_label": "第 19 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "980de143-c8a7-4bc5-b9d3-70c0306456e5",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "DARK MACHINE -The Animation- · 第 5 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-11T01:45:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/179876",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "179876:5",
+          "url": "https://anilist.co/anime/179876",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:179876",
+        "episode_id": "5",
+        "episode_label": "第 5 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "484e86b9-2bb0-4d45-bd28-4eaba1ab77d3",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "ちびゴジラの逆襲 シーズン4 · 第 17 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-11T07:06:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/218008",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "218008:17",
+          "url": "https://anilist.co/anime/218008",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:218008",
+        "episode_id": "17",
+        "episode_label": "第 17 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "0e0a3b6f-5cf9-44cf-96e9-37c81b3505ce",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "探偵はもう、死んでいる。Season2 · 第 6 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-11T21:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/152677",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "152677:6",
+          "url": "https://anilist.co/anime/152677",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:152677",
+        "episode_id": "6",
+        "episode_label": "第 6 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "804853d5-8b69-4962-ba08-8b9d8c17c7e3",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "ゲルぴよ 2 · 第 4 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-11T21:54:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/217282",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "217282:4",
+          "url": "https://anilist.co/anime/217282",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:217282",
+        "episode_id": "4",
+        "episode_label": "第 4 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "7bf7ddb5-a0ff-49fc-a567-aec6a6d8fe8c",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "佐々木とピーちゃん シーズン２ · 第 6 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-11T22:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/176314",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "176314:6",
+          "url": "https://anilist.co/anime/176314",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:176314",
+        "episode_id": "6",
+        "episode_label": "第 6 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "b0a32bde-8cba-4d08-a267-85864ad10c53",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "世界最強の魔女、始めました · 第 6 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-11T22:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/211778",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "211778:6",
+          "url": "https://anilist.co/anime/211778",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:211778",
+        "episode_id": "6",
+        "episode_label": "第 6 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "41a2bc99-170e-486c-bb98-b9579f3ef8f0",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "魔法騎士レイアース (2026) · 第 6 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-11T23:46:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/178868",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "178868:6",
+          "url": "https://anilist.co/anime/178868",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:178868",
+        "episode_id": "6",
+        "episode_label": "第 6 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "c53f6ac5-7495-4599-a070-a81e88dda022",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "新テニスの王子様 U-17 WORLD CUP 決勝メンバー決定戦 · 第 7 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-12T00:00:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/199068",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "199068:7",
+          "url": "https://anilist.co/anime/199068",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:199068",
+        "episode_id": "7",
+        "episode_label": "第 7 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "291b2fd6-b59c-46dd-b996-7fcbc8f3b624",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "獣王武神ダンデヴァイン · 第 6 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-12T00:30:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/213068",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "213068:6",
+          "url": "https://anilist.co/anime/213068",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:213068",
+        "episode_id": "6",
+        "episode_label": "第 6 集",
+        "channel": "anilist-schedule"
+      }
+    },
+    {
+      "id": "fc88a46f-d121-4b48-ab2d-fa559a8b6bf5",
+      "category": "anime",
+      "event_type": "episode_airing",
+      "title": "帰還者の魔法は特別です 第2期 · 第 6 集",
+      "description": "AniList 社区汇总的播出预告，可能调整；并非日本电视台官方首播保证。",
+      "status": "confirmed",
+      "schedule_state": "scheduled",
+      "time_kind": "datetime",
+      "start": "2026-11-12T00:45:00+09:00",
+      "end": null,
+      "timezone": "Asia/Tokyo",
+      "url": "https://anilist.co/anime/172192",
+      "sources": [
+        {
+          "provider": "anilist",
+          "source_id": "172192:6",
+          "url": "https://anilist.co/anime/172192",
+          "checked_at": "2026-10-29T08:10:28Z",
+          "authority": "aggregator"
+        }
+      ],
+      "revision": 0,
+      "created_at": "2026-10-29T08:10:28Z",
+      "updated_at": "2026-10-29T08:10:28Z",
+      "anime": {
+        "series_id": "anilist:172192",
+        "episode_id": "6",
+        "episode_label": "第 6 集",
+        "channel": "anilist-schedule"
+      }
+    }
+  ]
 }
