@@ -106,3 +106,10 @@ Pages 项目地址（GitHub 已报告部署成功）：
 - 随后已提交 `restored` 阶段，恢复事件为 2030-01-26 01:30 JST，`UID` 保持不变、`SEQUENCE=3`、`STATUS=CONFIRMED`。
 - [工作流 40838833643](https://github.com/southkite2023/yuashie-calendar/actions/runs/40838833643) 构建与 Pages 部署成功，生成器验证两种显示模式的 UID、SEQUENCE、STATUS 均符合预期。
 - **等待 Apple 日历实机验收恢复行为**：保持订阅不变，刷新后检查新日期出现正常（无删除线）事件，旧 01-19 日期不再保留取消事件或出现重复。未取得用户观察前不将恢复判定为通过，暂不推进最终 `cancelled` 阶段。
+
+## 2026-10-29 Apple 恢复反馈与正式取消测试
+
+- 用户反馈此前「已取消：延期」的事件在 `restored` 版本发布后又正常出现。**恢复显示已得到用户确认**；但用户未单独确认旧日期是否完全消失、是否存在重复，因此相关细节仍待核实。
+- 已将独立测试阶段推进到 `cancelled`，预期同一个 `UID`、`SEQUENCE=4`、`STATUS=CANCELLED`、时间定位在 2030-01-26 01:30 JST。其他 12 份固定测试订阅不变。
+- 服务端工作流见 [GitHub Actions 40839311951](https://github.com/southkite2023/yuashie-calendar/actions/runs/40839311951)。部署成功与否以实际 workflow 结果为准，客户端是否识别以保留订阅的 Mac 日历观察为准。
+- 用户操作：保留订阅并刷新 Mac 日历，查看 2030-01-26 是否出现「已取消」/删除线，或事件是否被客户端隐藏；不要删除订阅或重新导入 ICS。最终取消客户端验收仍待反馈。
