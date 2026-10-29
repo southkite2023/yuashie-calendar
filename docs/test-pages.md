@@ -111,5 +111,5 @@ Pages 项目地址（GitHub 已报告部署成功）：
 
 - 用户反馈此前「已取消：延期」的事件在 `restored` 版本发布后又正常出现。**恢复显示已得到用户确认**；但用户未单独确认旧日期是否完全消失、是否存在重复，因此相关细节仍待核实。
 - 已将独立测试阶段推进到 `cancelled`，预期同一个 `UID`、`SEQUENCE=4`、`STATUS=CANCELLED`、时间定位在 2030-01-26 01:30 JST。其他 12 份固定测试订阅不变。
-- 服务端工作流见 [GitHub Actions 40839311951](https://github.com/southkite2023/yuashie-calendar/actions/runs/40839311951)。部署成功与否以实际 workflow 结果为准，客户端是否识别以保留订阅的 Mac 日历观察为准。
+- 服务端工作流见 [GitHub Actions 40839311951](https://github.com/southkite2023/yuashie-calendar/actions/runs/40839311951)。工作流已完成、结论为 **success**；日志确认 `start` / `span` 两种模式均为 UID 不变、`SEQUENCE=4`、`STATUS=CANCELLED`，Pages 发布成功。客户端是否识别仍待保留订阅的 Mac 日历观察。
 - 用户操作：保留订阅并刷新 Mac 日历，查看 2030-01-26 是否出现「已取消」/删除线，或事件是否被客户端隐藏；不要删除订阅或重新导入 ICS。最终取消客户端验收仍待反馈。
