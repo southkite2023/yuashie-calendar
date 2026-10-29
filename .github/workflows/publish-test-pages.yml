@@ -1,7 +1,9 @@
-name: Publish fictional ICS test feeds
+name: Publish test and real anime ICS feeds
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '37 0,12 * * *'
   push:
     branches: [main]
     paths:
@@ -11,22 +13,24 @@ on:
       - 'scripts/stage_sample_pages.py'
       - 'scripts/build_lifecycle_test.py'
       - 'config/lifecycle-stage.txt'
+      - 'src/yuashie_calendar/anilist.py'
+      - 'scripts/build_real_anime.py'
       - 'tests/**'
       - 'requirements*.txt'
       - 'pyproject.toml'
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
 concurrency:
-  group: fictional-calendar-pages
+  group: calendar-pages-release
   cancel-in-progress: false
 
 jobs:
   publish:
-    name: Test and publish fictional ICS
+    name: Validate and publish test plus live anime ICS
     runs-on: ubuntu-latest
     environment:
       name: github-pages
@@ -63,6 +67,15 @@ jobs:
           PYTHONPATH: src
         run: python scripts/build_lifecycle_test.py
 
+      - name: Fetch real AniList TV anime and generate separate ICS
+        env:
+          PYTHONPATH: src
+        run: |
+          python scripts/build_real_anime.py \
+            --ledger data/real/anime-events.json \
+            --output dist/real-anime \
+            --snapshot dist/anime-events-new.json
+
       - name: Validate and stage public-only files
         run: python scripts/stage_sample_pages.py
 
@@ -74,6 +87,18 @@ jobs:
         with:
           path: dist/pages-site
 
-      - name: Deploy test site
+      - name: Deploy calendar site
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Persist event IDs and revisions after successful deployment
+        shell: bash
+        run: |
+          cp dist/anime-events-new.json data/real/anime-events.json
+          if ! git diff --quiet -- data/real/anime-events.json; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/real/anime-events.json
+            git commit -m "Update bounded live anime schedule [skip ci]"
+            git push origin HEAD:main
+          fi
