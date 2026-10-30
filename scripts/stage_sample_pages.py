@@ -102,6 +102,18 @@ def main() -> None:
         verified.append((Path("calendar/real/v1/anime") / f"{mode}.ics", src))
     if counts[0] != counts[1]:
         raise RuntimeError("Real anime modes have different event counts")
+    for mode in MODES:
+        source = REAL_SOURCE / f"{mode}.zh-CN.ics"
+        if verify_real(source) != counts[0]:
+            raise RuntimeError("Chinese anime feed has different number of events")
+        # No reidentification: language must not replace UID or dates.
+        native = Calendar.from_ical((REAL_SOURCE / f"{mode}.ics").read_bytes())
+        chinese = Calendar.from_ical(source.read_bytes())
+        baseline = {str(e.get("UID")): str(e.get("DTSTART")) for e in native.walk("VEVENT")}
+        translated = {str(e.get("UID")): str(e.get("DTSTART")) for e in chinese.walk("VEVENT")}
+        if baseline != translated:
+            raise RuntimeError("Chinese translation altered UID, DTSTART or count")
+        verified.append((Path("calendar/real/v1/anime") / source.name, source))
 
     registry = json.loads(SHOW_SNAPSHOT.read_text(encoding="utf-8"))
     if registry.get("schema_version") != 1 or not isinstance(registry.get("shows"), list):
@@ -126,6 +138,14 @@ def main() -> None:
                 if not str(event.get("UID", "")).endswith("@calendar.yuashie.cn"):
                     raise RuntimeError(f"Invalid single-show UID: {src}")
             verified.append((rel, src))
+            localized_src = REAL_SOURCE / "shows" / str(media_id) / f"{mode}.zh-CN.ics"
+            localized_cal = Calendar.from_ical(localized_src.read_bytes())
+            native_uids = {str(e.get("UID")) for e in calendar.walk("VEVENT")}
+            localized_uids = {str(e.get("UID")) for e in localized_cal.walk("VEVENT")}
+            if localized_uids != native_uids:
+                raise RuntimeError(f"Chinese show feed altered event UIDs: {media_id}")
+            verified.append((Path("calendar/real/v1/anime/shows") / str(media_id) /
+                             f"{mode}.zh-CN.ics", localized_src))
     if not ids:
         raise RuntimeError("No selectable show feeds generated")
 
@@ -197,7 +217,7 @@ def main() -> None:
     allowed = {rel.as_posix() for rel, _ in [*verified, *extra_files]} | {"index.html", "robots.txt", ".nojekyll"}
     if set(staged) != allowed:
         raise RuntimeError("Unexpected public contents: " + repr(staged))
-    print(f"Verified 12 fictional, 2 lifecycle, 2 real AniList base, {2 * len(ids)} single-show ICS, "
+    print(f"Verified 12 fictional, 2 lifecycle, 4 real bilingual AniList base, {4 * len(ids)} single-show ICS, "
           f"and {len(seen)} current-season show options.")
     print("Only ICS files, public season catalog, index.html, robots.txt and .nojekyll will be public; no private state.")
 

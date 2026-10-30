@@ -17,6 +17,8 @@ on:
       - 'scripts/build_real_anime.py'
       - 'src/yuashie_calendar/season_shows.py'
       - 'tests/**'
+      - 'data/real/anime-official-zh.json'
+      - 'src/yuashie_calendar/zh_titles.py'
       - 'requirements*.txt'
       - 'pyproject.toml'
 
@@ -78,6 +80,9 @@ jobs:
             --ledger data/real/anime-events.json \
             --show-registry data/real/anime-shows.json \
             --show-snapshot dist/anime-shows-new.json \
+            --zh-registry data/real/anime-zh-titles.json \
+            --zh-official data/real/anime-official-zh.json \
+            --zh-snapshot dist/anime-zh-titles-new.json \
             --output dist/real-anime \
             --snapshot dist/anime-events-new.json
 
@@ -101,10 +106,11 @@ jobs:
         run: |
           cp dist/anime-events-new.json data/real/anime-events.json
           cp dist/anime-shows-new.json data/real/anime-shows.json
-          if ! git diff --quiet -- data/real/anime-events.json data/real/anime-shows.json; then
+          cp dist/anime-zh-titles-new.json data/real/anime-zh-titles.json
+          if ! git diff --quiet -- data/real/anime-events.json data/real/anime-shows.json data/real/anime-zh-titles.json; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add data/real/anime-events.json data/real/anime-shows.json
+            git add data/real/anime-events.json data/real/anime-shows.json data/real/anime-zh-titles.json
             git commit -m "Update bounded live anime schedule [skip ci]"
             if ! git push origin HEAD:main; then
               # Routine documentation/source commits can advance main while a
