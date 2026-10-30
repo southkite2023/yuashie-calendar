@@ -4,6 +4,7 @@ Do not upload the generator's state.json, generations/ or source fixtures.
 """
 from __future__ import annotations
 
+import json
 import shutil
 from html import escape
 from pathlib import Path
@@ -15,6 +16,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "dist/sample-calendar/current/calendar/v1"
 LIFECYCLE_SOURCE = ROOT / "dist/lifecycle-test-calendar/current/calendar/v1/anime"
 REAL_SOURCE = ROOT / "dist/real-anime"
+SHOW_SNAPSHOT = ROOT / "dist/anime-shows-new.json"
 PUBLIC = ROOT / "dist/pages-site"
 COUNTS = {
     "genshin": 4,
@@ -101,12 +103,54 @@ def main() -> None:
     if counts[0] != counts[1]:
         raise RuntimeError("Real anime modes have different event counts")
 
+    registry = json.loads(SHOW_SNAPSHOT.read_text(encoding="utf-8"))
+    if registry.get("schema_version") != 1 or not isinstance(registry.get("shows"), list):
+        raise RuntimeError("Invalid show registry snapshot")
+    ids = set()
+    for show in registry["shows"]:
+        media_id = show.get("id")
+        if type(media_id) is not int or media_id <= 0 or media_id in ids:
+            raise RuntimeError("Invalid or duplicate show ID in registry")
+        ids.add(media_id)
+        for mode in MODES:
+            rel = Path("calendar/real/v1/anime/shows") / str(media_id) / f"{mode}.ics"
+            src = REAL_SOURCE / "shows" / str(media_id) / f"{mode}.ics"
+            # Per-show calendar may be empty after the last aired episode;
+            # keeping the file is essential for long-term URL stability.
+            calendar = Calendar.from_ical(src.read_bytes())
+            if str(calendar.get("VERSION")) != "2.0":
+                raise RuntimeError(f"Invalid single-show ICS: {src}")
+            for event in calendar.walk("VEVENT"):
+                if str(event.get("URL", "")) != f"https://anilist.co/anime/{media_id}":
+                    raise RuntimeError(f"Cross-show event leak: {src}")
+                if not str(event.get("UID", "")).endswith("@calendar.yuashie.cn"):
+                    raise RuntimeError(f"Invalid single-show UID: {src}")
+            verified.append((rel, src))
+    if not ids:
+        raise RuntimeError("No selectable show feeds generated")
+
+    catalog = REAL_SOURCE / "catalog/current-season.json"
+    listing = json.loads(catalog.read_text(encoding="utf-8"))
+    if (listing.get("schema_version") != 1 or
+            listing.get("season") not in ("WINTER", "SPRING", "SUMMER", "FALL") or
+            type(listing.get("year")) is not int or
+            not isinstance(listing.get("shows"), list)):
+        raise RuntimeError("Invalid public season catalog")
+    seen = set()
+    for show in listing["shows"]:
+        sid = show.get("id")
+        if (type(sid) is not int or sid not in ids or sid in seen or
+                not isinstance(show.get("title"), str) or not show["title"].strip()):
+            raise RuntimeError("Invalid catalog show")
+        seen.add(sid)
+    extra_files = [(Path("calendar/real/v1/anime/catalog/current-season.json"), catalog)]
+
     if PUBLIC.exists():
         shutil.rmtree(PUBLIC)
     PUBLIC.mkdir(parents=True)
     links = []
     real_links = []
-    for rel, src in verified:
+    for rel, src in [*verified, *extra_files]:
         target = PUBLIC / rel
         target.parent.mkdir(parents=True, exist_ok=True)
         shutil.copyfile(src, target)
@@ -114,6 +158,8 @@ def main() -> None:
             f'<li><a href="{escape(rel.as_posix())}">'
             f'{escape(rel.parent.name)} / {escape(rel.stem)}.ics</a></li>'
         )
+        if "shows" in rel.parts or rel.suffix == ".json":
+            continue  # Current-season pick list lives on yuashie.cn, not this link index.
         (real_links if rel.parts[1] == "real" else links).append(element)
 
     (PUBLIC / ".nojekyll").write_text("", encoding="utf-8")
@@ -148,11 +194,12 @@ def main() -> None:
         encoding="utf-8",
     )
     staged = sorted(p.relative_to(PUBLIC).as_posix() for p in PUBLIC.rglob("*") if p.is_file())
-    allowed = {rel.as_posix() for rel, _ in verified} | {"index.html", "robots.txt", ".nojekyll"}
+    allowed = {rel.as_posix() for rel, _ in [*verified, *extra_files]} | {"index.html", "robots.txt", ".nojekyll"}
     if set(staged) != allowed:
         raise RuntimeError("Unexpected public contents: " + repr(staged))
-    print(f"Verified 12 fictional base ICS + 2 lifecycle ICS + 2 real AniList ICS ({counts[0]} episodes).")
-    print("Only ICS files, index.html, robots.txt and .nojekyll will be public; no ledger or state.json.")
+    print(f"Verified 12 fictional, 2 lifecycle, 2 real AniList base, {2 * len(ids)} single-show ICS, "
+          f"and {len(seen)} current-season show options.")
+    print("Only ICS files, public season catalog, index.html, robots.txt and .nojekyll will be public; no private state.")
 
 
 if __name__ == "__main__":
