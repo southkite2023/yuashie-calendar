@@ -138,3 +138,10 @@ def test_manual_official_requires_evidence():
     }]}
     with pytest.raises(ValueError, match="Official title"):
         enrich_chinese_titles(RAW, EMPTY, manual, NOW, sleeper=lambda _: None)
+
+def test_bangumi_english_only_name_cn_does_not_masquerade_as_chinese():
+    result = lookup_bangumi(RAW[0]["title"], 2026, opener=fake_opener(
+        search_response([{"id": 14, "name": RAW[0]["title"],
+                          "name_cn": "Ghost Meets Gal!", "type": 2}])
+    ))
+    assert result is None
