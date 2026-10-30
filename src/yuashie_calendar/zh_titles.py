@@ -227,10 +227,10 @@ def localize_package(package, registry):
                 origin = "经人工核对的官方中文译名"
             else:
                 origin = "Bangumi 社区中文名称（不保证为官方译名）"
-            event["description"] += f"\\n中文名称来源：{origin}；{entry['source_url']}"
+            event["description"] += f"\n中文名称来源：{origin}；{entry['source_url']}"
             event["revision"] += entry["revision"]
             event["updated_at"] = max(event["updated_at"], entry["updated_at"])
         else:
-            event["description"] += "\\n未核实可靠中文译名，保留日文原名。"
+            event["description"] += "\n未核实可靠中文译名，保留日文原名。"
     validate_package(localized)
     return localized
