@@ -30,7 +30,7 @@ query ($page: Int!, $after: Int!, $before: Int!) {
     airingSchedules(airingAt_greater: $after, airingAt_lesser: $before, sort: TIME) {
       airingAt episode mediaId
       media {
-        id type format isAdult countryOfOrigin
+        id type format isAdult countryOfOrigin season seasonYear
         title { native romaji english }
       }
     }
@@ -113,6 +113,13 @@ def fetch_window(now, get_page=request_page):
                 continue
             key = f"{media_id}:{episode}"
             candidate = {"media_id": media_id, "episode": episode, "airing": airing, "title": title}
+            # Season metadata is independent of event identity: it only builds
+            # the website's current-season selector, not the ICS event ID.
+            season = media.get("season")
+            year = media.get("seasonYear")
+            if season in ("WINTER", "SPRING", "SUMMER", "FALL") and type(year) is int and 2000 <= year <= 2100:
+                candidate["season"] = season
+                candidate["season_year"] = year
             if key in collected and collected[key] != candidate:
                 raise UpstreamError(f"Conflicting AniList schedule: {key}")
             collected[key] = candidate
