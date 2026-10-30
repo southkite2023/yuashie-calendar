@@ -44,6 +44,14 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Synchronize latest main before generating stateful calendars
+        shell: bash
+        run: |
+          # Older queued workflow SHAs must not publish from stale ledgers.
+          # This is a fast-forward checkout of main, not a force push.
+          git fetch origin main
+          git checkout -B main origin/main
+
       - name: Configure Python
         uses: actions/setup-python@v5
         with:
