@@ -17,7 +17,7 @@ from urllib.request import Request, urlopen
 
 BANGUMI_SEARCH = "https://api.bgm.tv/v0/search/subjects?limit=10"
 MAX_RESPONSE_BYTES = 350_000
-MAX_NEW_LOOKUPS = 32
+MAX_NEW_LOOKUPS = 64
 MAX_TITLE_LENGTH = 160
 USER_AGENT = "YuashieCalendar/1.0 (https://github.com/southkite2023/yuashie-calendar; language titles)"
 
@@ -163,7 +163,7 @@ def enrich_chinese_titles(raw, previous, reviewed, now, lookup=lookup_bangumi, m
             attempted += 1
             try:
                 candidate = lookup(native, row.get("season_year", now.year))
-                sleeper(0.45)
+                sleeper(0.65)
             except TranslationLookupError:
                 errors += 1
                 if errors >= 2:
