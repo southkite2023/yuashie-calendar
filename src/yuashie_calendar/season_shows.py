@@ -58,8 +58,11 @@ def build_show_feeds(raw, package, now, previous, output):
         all_shows[show["id"]] = show.copy()
 
     next_airings = {}
+    aliases_by_id = {}
     for row in raw:
         media_id = row["media_id"]
+        if isinstance(row.get("aliases"), list):
+            aliases_by_id[media_id] = [v for v in row["aliases"] if isinstance(v, str) and v.strip()][:5]
         season, year = row.get("season"), row.get("season_year")
         if season not in SEASONS or type(year) is not int:
             continue
@@ -105,6 +108,7 @@ def build_show_feeds(raw, package, now, previous, output):
         upcoming = next_airings.get(show["id"])
         eligible.append({
             "id": show["id"], "title": show["title"],
+            "aliases": aliases_by_id.get(show["id"], []),
             "next_airing_at": upcoming["at"] if upcoming else None,
             "next_episode": upcoming["episode"] if upcoming else None,
         })
