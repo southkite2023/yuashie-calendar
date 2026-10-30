@@ -1,4 +1,521 @@
 {
   "schema_version": 1,
-  "shows": []
+  "shows": [
+    {
+      "id": 8687,
+      "title": "ドラえもん (2005)",
+      "season": "SPRING",
+      "season_year": 2005
+    },
+    {
+      "id": 152677,
+      "title": "探偵はもう、死んでいる。Season2",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 158871,
+      "title": "ポケットモンスター (2023)",
+      "season": "SPRING",
+      "season_year": 2023
+    },
+    {
+      "id": 160803,
+      "title": "魔法少女育成計画 restart",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 165159,
+      "title": "BEYBLADE X",
+      "season": "FALL",
+      "season_year": 2023
+    },
+    {
+      "id": 172192,
+      "title": "帰還者の魔法は特別です 第2期",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 176314,
+      "title": "佐々木とピーちゃん シーズン２",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 178083,
+      "title": "東京リベンジャーズ 三天戦争編",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 178868,
+      "title": "魔法騎士レイアース (2026)",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 179876,
+      "title": "DARK MACHINE -The Animation-",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 180136,
+      "title": "追放された転生重騎士はゲーム知識で無双する",
+      "season": "SUMMER",
+      "season_year": 2026
+    },
+    {
+      "id": 183231,
+      "title": "リラックマ",
+      "season": "SPRING",
+      "season_year": 2026
+    },
+    {
+      "id": 185646,
+      "title": "コウペンちゃん",
+      "season": "SPRING",
+      "season_year": 2025
+    },
+    {
+      "id": 185756,
+      "title": "転生貴族、鑑定スキルで成り上がる 第3期",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 186541,
+      "title": "目覚めたら最強装備と宇宙船持ちだったので、一戸建て目指して傭兵として自由に生きたい",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 186742,
+      "title": "とある暗部の少女共棲",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 187316,
+      "title": "幻想水滸伝",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 187990,
+      "title": "Battle Spirits [Re] 絶界の空",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 188034,
+      "title": "ガールズ＆パンツァー もっとらぶらぶ作戦です！",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 189123,
+      "title": "アオのハコ Season２",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 191656,
+      "title": "生徒会にも穴はある！",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 191788,
+      "title": "アオアシ 第2期",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 194207,
+      "title": "パンどろぼう",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 195516,
+      "title": "薬屋のひとりごと 第3期",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 195571,
+      "title": "朱色の仮面",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 195604,
+      "title": "ブラッククローバー 第2期",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 198727,
+      "title": "千歳くんはラムネ瓶のなか 2クール",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 199007,
+      "title": "#ゾンビさがしてます",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 199068,
+      "title": "新テニスの王子様 U-17 WORLD CUP 決勝メンバー決定戦",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 199426,
+      "title": "ホテル・インヒューマンズ 第2期",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 199594,
+      "title": "てつりょー！meet with 鉄道むすめ",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 200294,
+      "title": "超巡！超条先輩",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 200455,
+      "title": "弱気MAX令嬢なのに、辣腕婚約者様の賭けに乗ってしまった",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 202079,
+      "title": "おじさんはカワイイものがお好き。",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 202250,
+      "title": "貸した魔力は【リボ払い】で強制徴収",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 202957,
+      "title": "名探偵プリキュア！",
+      "season": "WINTER",
+      "season_year": 2026
+    },
+    {
+      "id": 203275,
+      "title": "デモンズ・クレスト",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 203473,
+      "title": "恐怖コレクター",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 203490,
+      "title": "うちの弟どもがすみません",
+      "season": "SUMMER",
+      "season_year": 2026
+    },
+    {
+      "id": 204011,
+      "title": "PSYREN -サイレン-",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 204269,
+      "title": "おでかけ子ザメ シーズン2",
+      "season": "SPRING",
+      "season_year": 2026
+    },
+    {
+      "id": 204650,
+      "title": "桃源暗鬼 日光・華厳の滝編",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 205896,
+      "title": "信者ゼロの女神サマと始める異世界攻略",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 205909,
+      "title": "ホタルの嫁入り",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 206401,
+      "title": "FX戦士くるみちゃん",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 206523,
+      "title": "おねがいアイプリ",
+      "season": "SPRING",
+      "season_year": 2026
+    },
+    {
+      "id": 206774,
+      "title": "マウスカーソルで現実を操作できるようになったので、女の子をいっぱいクリックしまーす",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 206814,
+      "title": "ドラゴンボール超 ビルス",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 206949,
+      "title": "凶乱令嬢ニア・リストン",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 207191,
+      "title": "どうも、好きな人に惚れ薬を依頼された魔女です。",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 207329,
+      "title": "追放されたチート付与魔術師は気ままなセカンドライフを謳歌する。　～俺は武器だけじゃなく、あらゆるものに『強化ポイント』を付与できるし、俺の意思でいつでも効果を解除できるけど、残った人たち大丈夫？～",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 207809,
+      "title": "天は赤い河のほとり",
+      "season": "SUMMER",
+      "season_year": 2026
+    },
+    {
+      "id": 208025,
+      "title": "ダークサモナーとデキている",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 209032,
+      "title": "魔法の姉妹ルルットリリィ 第2クール",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 209463,
+      "title": "彼方から",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 209499,
+      "title": "TANK CHAIR-戦車椅子-",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 209502,
+      "title": "塩対応の佐藤さんが俺にだけ甘い",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 209562,
+      "title": "バーテックスフォース",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 209709,
+      "title": "しろたん",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 209872,
+      "title": "らんま1/2 (2024) 第3期",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 211778,
+      "title": "世界最強の魔女、始めました",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 211877,
+      "title": "彼女の友達",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 212144,
+      "title": "傷だらけ聖女より報復をこめて Season2",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 212308,
+      "title": "パンの赤ちゃん",
+      "season": "SUMMER",
+      "season_year": 2026
+    },
+    {
+      "id": 212503,
+      "title": "冰剣の魔術師が世界を統べるⅡ",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 212799,
+      "title": "マロニエ王国の七人の騎士",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 213068,
+      "title": "獣王武神ダンデヴァイン",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 213298,
+      "title": "ゆるゆる図鑑",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 213657,
+      "title": "夜桜さんちの大作戦 第2期 第2クール",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 213658,
+      "title": "ダイヤのA actⅡ -Second Season- 第2クール",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 213805,
+      "title": "氷の城壁 第2期",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 214536,
+      "title": "カードファイト!! ヴァンガード Divinez 運命星戦編",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 214593,
+      "title": "ゆうさんち！from 遊ハち",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 214703,
+      "title": "ごーすと・みーつ・ぎゃる！",
+      "season": "SUMMER",
+      "season_year": 2026
+    },
+    {
+      "id": 214968,
+      "title": "ねずみくんのチョッキ (TV) 第2期",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 216557,
+      "title": "ケロロ軍曹☆",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 216860,
+      "title": "ぷにるんず ぷに４",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 216895,
+      "title": "蒼き伝承 ウェルシュ&シェーダー",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 217282,
+      "title": "ゲルぴよ 2",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 217577,
+      "title": "マゼンチュ",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 217782,
+      "title": "彼女の友達 ミニアニメ劇場",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 217787,
+      "title": "ポップパップポルターズ",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 218008,
+      "title": "ちびゴジラの逆襲 シーズン4",
+      "season": "SPRING",
+      "season_year": 2026
+    },
+    {
+      "id": 218011,
+      "title": "タヌキとキツネ",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 218217,
+      "title": "JKダークサモナーとデキ。。。。。。でいない!?",
+      "season": "FALL",
+      "season_year": 2026
+    },
+    {
+      "id": 218942,
+      "title": "シルバニアファミリー フレアのカラフル・エブリデイ",
+      "season": "FALL",
+      "season_year": 2026
+    }
+  ]
 }
