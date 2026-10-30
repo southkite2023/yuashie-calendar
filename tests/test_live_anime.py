@@ -90,7 +90,9 @@ def test_japanese_tv_filter_and_bounded_pagination():
     def fake(p, a, b):
         return page([other], has_next=True) if p == 1 else page([api_row()])
     rows = fetch_window(NOW, get_page=fake)
-    assert rows == [episode()]
+    assert len(rows) == 1
+    assert all(rows[0][key] == episode()[key] for key in ("media_id", "episode", "airing", "title"))
+    assert "Kakuu Anime" in rows[0]["aliases"]
     calls = []
     with pytest.raises(UpstreamError, match="bounded page"):
         fetch_window(NOW, get_page=lambda p, a, b: calls.append(p) or page([api_row()], has_next=True))
