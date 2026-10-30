@@ -113,6 +113,12 @@ def fetch_window(now, get_page=request_page):
                 continue
             key = f"{media_id}:{episode}"
             candidate = {"media_id": media_id, "episode": episode, "airing": airing, "title": title}
+            aliases = list(dict.fromkeys(
+                value.strip() for field in ("romaji", "english")
+                if isinstance((value := titles.get(field)), str) and value.strip() and value.strip() != title
+            ))
+            if aliases:
+                candidate["aliases"] = aliases
             # Season metadata is independent of event identity: it only builds
             # the website's current-season selector, not the ICS event ID.
             season = media.get("season")
