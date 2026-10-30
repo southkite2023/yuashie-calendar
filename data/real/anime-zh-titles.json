@@ -1,4 +1,325 @@
 {
   "schema_version": 1,
-  "entries": []
+  "entries": [
+    {
+      "anilist_id": 235,
+      "native_title": "名探偵コナン",
+      "zh_hans": null,
+      "source": "none",
+      "source_url": null,
+      "revision": 0,
+      "updated_at": "2026-10-30T03:11:14Z",
+      "checked_at": "2026-10-30T03:11:14Z"
+    },
+    {
+      "anilist_id": 966,
+      "native_title": "クレヨンしんちゃん",
+      "zh_hans": null,
+      "source": "none",
+      "source_url": null,
+      "revision": 0,
+      "updated_at": "2026-10-30T03:11:14Z",
+      "checked_at": "2026-10-30T03:11:14Z"
+    },
+    {
+      "anilist_id": 2406,
+      "native_title": "サザエさん",
+      "zh_hans": null,
+      "source": "none",
+      "source_url": null,
+      "revision": 0,
+      "updated_at": "2026-10-30T03:11:14Z",
+      "checked_at": "2026-10-30T03:11:14Z"
+    },
+    {
+      "anilist_id": 8687,
+      "native_title": "ドラえもん (2005)",
+      "zh_hans": null,
+      "source": "none",
+      "source_url": null,
+      "revision": 0,
+      "updated_at": "2026-10-30T03:11:14Z",
+      "checked_at": "2026-10-30T03:11:14Z"
+    },
+    {
+      "anilist_id": 152677,
+      "native_title": "探偵はもう、死んでいる。Season2",
+      "zh_hans": null,
+      "source": "none",
+      "source_url": null,
+      "revision": 0,
+      "updated_at": "2026-10-30T03:11:14Z",
+      "checked_at": "2026-10-30T03:11:14Z"
+    },
+    {
+      "anilist_id": 158871,
+      "native_title": "ポケットモンスター (2023)",
+      "zh_hans": null,
+      "source": "none",
+      "source_url": null,
+      "revision": 0,
+      "updated_at": "2026-10-30T03:11:14Z",
+      "checked_at": "2026-10-30T03:11:14Z"
+    },
+    {
+      "anilist_id": 160803,
+      "native_title": "魔法少女育成計画 restart",
+      "zh_hans": "魔法少女育成计划 restart",
+      "source": "bangumi",
+      "source_url": "https://bgm.tv/subject/418229",
+      "revision": 1,
+      "updated_at": "2026-10-30T03:11:14Z",
+      "checked_at": "2026-10-30T03:11:14Z"
+    },
+    {
+      "anilist_id": 165159,
+      "native_title": "BEYBLADE X",
+      "zh_hans": "霸旋陀螺 极限突破",
+      "source": "bangumi",
+      "source_url": "https://bgm.tv/subject/418599",
+      "revision": 1,
+      "updated_at": "2026-10-30T03:11:14Z",
+      "checked_at": "2026-10-30T03:11:14Z"
+    },
+    {
+      "anilist_id": 172192,
+      "native_title": "帰還者の魔法は特別です 第2期",
+      "zh_hans": "归还者的魔法要特别 第二季",
+      "source": "bangumi",
+      "source_url": "https://bgm.tv/subject/471844",
+      "revision": 1,
+      "updated_at": "2026-10-30T03:11:14Z",
+      "checked_at": "2026-10-30T03:11:14Z"
+    },
+    {
+      "anilist_id": 176314,
+      "native_title": "佐々木とピーちゃん シーズン２",
+      "zh_hans": null,
+      "source": "none",
+      "source_url": null,
+      "revision": 0,
+      "updated_at": "2026-10-30T03:11:14Z",
+      "checked_at": "2026-10-30T03:11:14Z"
+    },
+    {
+      "anilist_id": 178083,
+      "native_title": "東京リベンジャーズ 三天戦争編",
+      "zh_hans": "东京复仇者 三天战争篇",
+      "source": "bangumi",
+      "source_url": "https://bgm.tv/subject/499474",
+      "revision": 1,
+      "updated_at": "2026-10-30T03:11:14Z",
+      "checked_at": "2026-10-30T03:11:14Z"
+    },
+    {
+      "anilist_id": 178868,
+      "native_title": "魔法騎士レイアース (2026)",
+      "zh_hans": null,
+      "source": "none",
+      "source_url": null,
+      "revision": 0,
+      "updated_at": "2026-10-30T03:11:14Z",
+      "checked_at": "2026-10-30T03:11:14Z"
+    },
+    {
+      "anilist_id": 179876,
+      "native_title": "DARK MACHINE -The Animation-",
+      "zh_hans": null,
+      "source": "none",
+      "source_url": null,
+      "revision": 0,
+      "updated_at": "2026-10-30T03:11:14Z",
+      "checked_at": "2026-10-30T03:11:14Z"
+    },
+    {
+      "anilist_id": 180136,
+      "native_title": "追放された転生重騎士はゲーム知識で無双する",
+      "zh_hans": "遭到流放的转生重骑士凭借游戏知识大开无双",
+      "source": "bangumi",
+      "source_url": "https://bgm.tv/subject/511177",
+      "revision": 1,
+      "updated_at": "2026-10-30T03:11:14Z",
+      "checked_at": "2026-10-30T03:11:14Z"
+    },
+    {
+      "anilist_id": 183231,
+      "native_title": "リラックマ",
+      "zh_hans": "轻松熊",
+      "source": "bangumi",
+      "source_url": "https://bgm.tv/subject/520633",
+      "revision": 1,
+      "updated_at": "2026-10-30T03:11:14Z",
+      "checked_at": "2026-10-30T03:11:14Z"
+    },
+    {
+      "anilist_id": 185646,
+      "native_title": "コウペンちゃん",
+      "zh_hans": "正能量企鹅",
+      "source": "bangumi",
+      "source_url": "https://bgm.tv/subject/529143",
+      "revision": 1,
+      "updated_at": "2026-10-30T03:11:14Z",
+      "checked_at": "2026-10-30T03:11:14Z"
+    },
+    {
+      "anilist_id": 185756,
+      "native_title": "転生貴族、鑑定スキルで成り上がる 第3期",
+      "zh_hans": "转生贵族凭鉴定技能扭转人生 第三季",
+      "source": "bangumi",
+      "source_url": "https://bgm.tv/subject/530104",
+      "revision": 1,
+      "updated_at": "2026-10-30T03:11:14Z",
+      "checked_at": "2026-10-30T03:11:14Z"
+    },
+    {
+      "anilist_id": 186541,
+      "native_title": "目覚めたら最強装備と宇宙船持ちだったので、一戸建て目指して傭兵として自由に生きたい",
+      "zh_hans": null,
+      "source": "none",
+      "source_url": null,
+      "revision": 0,
+      "updated_at": "2026-10-30T03:11:14Z",
+      "checked_at": "2026-10-30T03:11:14Z"
+    },
+    {
+      "anilist_id": 186742,
+      "native_title": "とある暗部の少女共棲",
+      "zh_hans": "某暗部的少女共栖",
+      "source": "bangumi",
+      "source_url": "https://bgm.tv/subject/537738",
+      "revision": 1,
+      "updated_at": "2026-10-30T03:11:14Z",
+      "checked_at": "2026-10-30T03:11:14Z"
+    },
+    {
+      "anilist_id": 187316,
+      "native_title": "幻想水滸伝",
+      "zh_hans": "幻想水浒传",
+      "source": "bangumi",
+      "source_url": "https://bgm.tv/subject/541538",
+      "revision": 1,
+      "updated_at": "2026-10-30T03:11:14Z",
+      "checked_at": "2026-10-30T03:11:14Z"
+    },
+    {
+      "anilist_id": 187990,
+      "native_title": "Battle Spirits [Re] 絶界の空",
+      "zh_hans": "战斗之魂[Re] 绝界之空",
+      "source": "bangumi",
+      "source_url": "https://bgm.tv/subject/544378",
+      "revision": 1,
+      "updated_at": "2026-10-30T03:11:14Z",
+      "checked_at": "2026-10-30T03:11:14Z"
+    },
+    {
+      "anilist_id": 188034,
+      "native_title": "ガールズ＆パンツァー もっとらぶらぶ作戦です！",
+      "zh_hans": null,
+      "source": "none",
+      "source_url": null,
+      "revision": 0,
+      "updated_at": "2026-10-30T03:11:14Z",
+      "checked_at": "2026-10-30T03:11:14Z"
+    },
+    {
+      "anilist_id": 189123,
+      "native_title": "アオのハコ Season２",
+      "zh_hans": null,
+      "source": "none",
+      "source_url": null,
+      "revision": 0,
+      "updated_at": "2026-10-30T03:11:14Z",
+      "checked_at": "2026-10-30T03:11:14Z"
+    },
+    {
+      "anilist_id": 191656,
+      "native_title": "生徒会にも穴はある！",
+      "zh_hans": "学生会也有洞！",
+      "source": "bangumi",
+      "source_url": "https://bgm.tv/subject/554779",
+      "revision": 1,
+      "updated_at": "2026-10-30T03:11:14Z",
+      "checked_at": "2026-10-30T03:11:14Z"
+    },
+    {
+      "anilist_id": 191788,
+      "native_title": "アオアシ 第2期",
+      "zh_hans": null,
+      "source": "none",
+      "source_url": null,
+      "revision": 0,
+      "updated_at": "2026-10-30T03:11:14Z",
+      "checked_at": "2026-10-30T03:11:14Z"
+    },
+    {
+      "anilist_id": 194207,
+      "native_title": "パンどろぼう",
+      "zh_hans": "神秘面包小子",
+      "source": "bangumi",
+      "source_url": "https://bgm.tv/subject/563508",
+      "revision": 1,
+      "updated_at": "2026-10-30T03:11:14Z",
+      "checked_at": "2026-10-30T03:11:14Z"
+    },
+    {
+      "anilist_id": 195516,
+      "native_title": "薬屋のひとりごと 第3期",
+      "zh_hans": "药屋少女的呢喃 第三季",
+      "source": "bangumi",
+      "source_url": "https://bgm.tv/subject/568244",
+      "revision": 1,
+      "updated_at": "2026-10-30T03:11:14Z",
+      "checked_at": "2026-10-30T03:11:14Z"
+    },
+    {
+      "anilist_id": 195571,
+      "native_title": "朱色の仮面",
+      "zh_hans": "朱色假面",
+      "source": "bangumi",
+      "source_url": "https://bgm.tv/subject/568525",
+      "revision": 1,
+      "updated_at": "2026-10-30T03:11:14Z",
+      "checked_at": "2026-10-30T03:11:14Z"
+    },
+    {
+      "anilist_id": 195604,
+      "native_title": "ブラッククローバー 第2期",
+      "zh_hans": null,
+      "source": "none",
+      "source_url": null,
+      "revision": 0,
+      "updated_at": "2026-10-30T03:11:14Z",
+      "checked_at": "2026-10-30T03:11:14Z"
+    },
+    {
+      "anilist_id": 198727,
+      "native_title": "千歳くんはラムネ瓶のなか 2クール",
+      "zh_hans": null,
+      "source": "none",
+      "source_url": null,
+      "revision": 0,
+      "updated_at": "2026-10-30T03:11:14Z",
+      "checked_at": "2026-10-30T03:11:14Z"
+    },
+    {
+      "anilist_id": 199007,
+      "native_title": "#ゾンビさがしてます",
+      "zh_hans": "僵尸搜寻中",
+      "source": "bangumi",
+      "source_url": "https://bgm.tv/subject/586255",
+      "revision": 1,
+      "updated_at": "2026-10-30T03:11:14Z",
+      "checked_at": "2026-10-30T03:11:14Z"
+    },
+    {
+      "anilist_id": 199068,
+      "native_title": "新テニスの王子様 U-17 WORLD CUP 決勝メンバー決定戦",
+      "zh_hans": "新网球王子 U-17 世界杯 决赛成员选拔赛",
+      "source": "bangumi",
+      "source_url": "https://bgm.tv/subject/586941",
+      "revision": 1,
+      "updated_at": "2026-10-30T03:11:14Z",
+      "checked_at": "2026-10-30T03:11:14Z"
+    }
+  ]
 }
