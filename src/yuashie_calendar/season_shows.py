@@ -36,7 +36,7 @@ def make_calendar(events, mode, title):
     return calendar.to_ical()
 
 
-def build_show_feeds(raw, package, now, previous, output):
+def build_show_feeds(raw, package, now, previous, output, *, translations=None, localized=None):
     """Return a new public registry and current-season catalog.
 
     Retain all old series IDs to keep an existing subscription URL accessible
@@ -79,6 +79,13 @@ def build_show_feeds(raw, package, now, previous, output):
     if not all_shows:
         raise ValueError("No shows with valid AniList season metadata; retaining old publication")
 
+    entries = {e["anilist_id"]: e for e in (translations or {"entries": []})["entries"]}
+    localized_events_by_id = {}
+    if localized is not None:
+        for event in localized["events"]:
+            media_id = int(event["anime"]["series_id"].split(":", 1)[1])
+            localized_events_by_id.setdefault(media_id, []).append(event)
+
     events_by_id = {}
     for event in package["events"]:
         raw_id = event["anime"]["series_id"]
@@ -99,6 +106,12 @@ def build_show_feeds(raw, package, now, previous, output):
             path = output / "shows" / str(media_id) / f"{mode}.ics"
             path.parent.mkdir(parents=True, exist_ok=True)
             path.write_bytes(source)
+            if localized is not None:
+                chinese = make_calendar(
+                    localized_events_by_id.get(media_id, []), mode,
+                    f"Yuashie Calendar · {entries.get(media_id, {}).get('zh_hans') or show['title']} · 中文 · {mode}",
+                )
+                (path.parent / f"{mode}.zh-CN.ics").write_bytes(chinese)
 
     season, year = current_season(now)
     eligible = []
@@ -109,6 +122,9 @@ def build_show_feeds(raw, package, now, previous, output):
         eligible.append({
             "id": show["id"], "title": show["title"],
             "aliases": aliases_by_id.get(show["id"], []),
+            "title_zh": entries.get(show["id"], {}).get("zh_hans"),
+            "title_zh_source": entries.get(show["id"], {}).get("source", "none"),
+            "title_zh_source_url": entries.get(show["id"], {}).get("source_url"),
             "next_airing_at": upcoming["at"] if upcoming else None,
             "next_episode": upcoming["episode"] if upcoming else None,
         })
