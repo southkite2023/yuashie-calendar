@@ -39,6 +39,8 @@ jobs:
     steps:
       - name: Check out source
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Configure Python
         uses: actions/setup-python@v5
@@ -104,5 +106,13 @@ jobs:
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add data/real/anime-events.json data/real/anime-shows.json
             git commit -m "Update bounded live anime schedule [skip ci]"
-            git push origin HEAD:main
+            if ! git push origin HEAD:main; then
+              # Routine documentation/source commits can advance main while a
+              # scheduled build is running. Rebase without force-pushing.
+              # A genuine ledger conflict still fails safely instead of
+              # overwriting newer IDs and SEQUENCE values.
+              git fetch origin main
+              git rebase origin/main
+              git push origin HEAD:main
+            fi
           fi
