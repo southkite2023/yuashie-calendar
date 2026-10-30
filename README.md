@@ -11,6 +11,14 @@
 
 这是 AniList 社区维护的未来播出数据，并非制作方或电视台官方公告；事件可以更改。以上两个地址与旧版 2030 年虚构测试源完全独立。动态组合生成器尚未上线，不要将 `.invalid` 域名当作真实地址。
 
+## 当季番剧勾选订阅
+
+[前往主站当季动漫选择器](https://yuashie.cn/projects/004/subscribe#anime-season-picker)：选择当季正在追的作品，按单个 AniList 作品 ID 获取持续更新的 ICS。目录源为 [当前季 JSON](https://southkite2023.github.io/yuashie-calendar/calendar/real/v1/anime/catalog/current-season.json)。每部番剧有独立的固定地址，例如：
+
+`https://southkite2023.github.io/yuashie-calendar/calendar/real/v1/anime/shows/206401/span.ics`
+
+**注意**：静态 GitHub Pages 无法将用户任意多选直接合并成一条持续更新的订阅 URL。勾选后请分别添加每部作品的 ICS 订阅；复制多个 URL 仅是便捷操作，不代表 Apple/Google 日历会批量导入。保留“全部动漫”原订阅源供有需要的用户使用。进一步说明见 [真实动漫接入文档](docs/real-anime.md)。
+
 ## 项目目标
 
 | 内容 | 计划覆盖 |
