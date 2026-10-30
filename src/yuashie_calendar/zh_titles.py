@@ -201,3 +201,36 @@ def title_for_entry(native, entry):
     if entry and valid_title(entry.get("zh_hans")):
         return entry["zh_hans"]
     return native
+
+def localize_package(package, registry):
+    """Localized ICS projection; keep canonical Japanese event state unchanged.
+
+    Translation revisions are additive on top of AniList event revisions,
+    so edits to Japanese schedules and to the translated name both cause
+    SEQUENCE to increase while UID and original timing stay fixed.
+    """
+    from copy import deepcopy
+    from .validation import validate_package
+    entries = _load_existing(registry)
+    localized = deepcopy(package)
+    for event in localized["events"]:
+        media_id = int(event["anime"]["series_id"].split(":", 1)[1])
+        entry = entries.get(media_id)
+        suffix = " · " + event["anime"]["episode_label"]
+        if not event["title"].endswith(suffix):
+            raise ValueError("Unexpected canonical AniList episode title")
+        original = event["title"][:-len(suffix)]
+        title = title_for_entry(original, entry)
+        event["title"] = title + suffix
+        if entry and entry["zh_hans"]:
+            if entry["source"] == "official":
+                origin = "经人工核对的官方中文译名"
+            else:
+                origin = "Bangumi 社区中文名称（不保证为官方译名）"
+            event["description"] += f"\\n中文名称来源：{origin}；{entry['source_url']}"
+            event["revision"] += entry["revision"]
+            event["updated_at"] = max(event["updated_at"], entry["updated_at"])
+        else:
+            event["description"] += "\\n未核实可靠中文译名，保留日文原名。"
+    validate_package(localized)
+    return localized
