@@ -38,3 +38,14 @@
 5. 使主站 `yuashie.cn/projects/004` 提供本批真实动漫订阅入口；任意类别/番剧组合的动态 Feed API 尚待实现。
 
 如果未来将此服务用于商业用途或拓展为竞争性动漫追踪网站，应先复核 AniList API 使用条款及许可要求。
+
+## 2026-10-30：按当季作品勾选订阅
+
+用户不希望订阅全部动漫。为保持静态 GitHub Pages 下的链接长期可用，新增按 AniList 作品 ID 分别生成的 ICS：`/calendar/real/v1/anime/shows/{id}/{start|span}.ics`，以及 `/calendar/real/v1/anime/catalog/current-season.json`。本季依据 **Asia/Tokyo** 日期自动判断冬（1–3 月）、春（4–6 月）、夏（7–9 月）、秋（10–12 月），列表仅包括近两周播出查询中附有对应 `season/seasonYear` 元数据的作品；长期连载、当季尚无排期及来源元数据缺失的作品可能不会出现，不能宣称是完整的番剧资料库。
+
+每部番剧使用来源的固定 media ID 形成订阅路径，单集仍使用已持久化的 UUID/SEQUENCE。公开 `data/real/anime-shows.json` 存储已见过作品的 season/标题映射，以免当前季结束后已订阅 URL 变成 404：即使分集逐渐过期，旧 URL 仍返回有效空 ICS 文件。自动化发布前验证各作品内部只包含对应 AniList 作品的事件，避免交叉污染。
+
+主站 `yuashie.cn/projects/004/subscribe#anime-season-picker` 提供当季番剧搜索、多选与复制逐部订阅链接；默认使用精确播出时间的 `span` 模式。**必须将每个勾选作品分别添加为日历订阅**，复制多个 URL 不代表单次粘贴可批量订阅。GitHub Pages 没有动态服务器，不能仅凭勾选生成一条对任意组合持续生效的 ICS URL；若需要「勾选 N 部 → 单一 URL」必须部署动态聚合服务（例如自有服务器或边缘函数）。不要把下载 ICS 文件等同于持续订阅。
+
+已保留旧的“全部动漫”订阅作为次要入口，原来的 2030 年虚构测试源不改变。这个功能不提供登录状态同步，不会替用户自动添加 Apple/Google 日历；订阅操作由用户在日历客户端完成。
+
