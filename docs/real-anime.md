@@ -49,3 +49,30 @@
 
 已保留旧的“全部动漫”订阅作为次要入口，原来的 2030 年虚构测试源不改变。这个功能不提供登录状态同步，不会替用户自动添加 Apple/Google 日历；订阅操作由用户在日历客户端完成。
 
+
+
+## 中文译名订阅（2026-10-30）
+
+**目标**：在不变更日文原有订阅地址的前提下，新增独立的简体中文标题 ICS。
+
+- 日文原订阅：`/calendar/real/v1/anime/{start|span}.ics`。
+- 中文整季订阅：`/calendar/real/v1/anime/{start|span}.zh-CN.ics`。
+- 中文单番订阅：`/calendar/real/v1/anime/shows/{anilist_media_id}/{start|span}.zh-CN.ics`。
+- 主站的动态中文合并订阅将在独立后端升级至支持 `?lang=zh-CN` 时开启；现有不加 lang 的动态合并 URL 始终采用日文标题。
+
+**名称选择与核验规则（避免把社区译名说成官方）：**
+
+1. 人工核实的官方中文译名（发行平台 / 中文官方网站或官方宣传材料的确切 URL），存放在 `data/real/anime-official-zh.json`。每条记录必须包含 AniList ID、日文原名、中文译名、来源 HTTPS URL 和具体核实说明，且日文原名必须与当前 AniList 精确对应。这是人工审校证据，不可仅凭中文维基、搜索摘要或机器翻译就标为官方。文件初始为空，**不虚构已核实的官方译名**。
+2. 如果没有已审校的官方映射，通过 `Bangumi (bgm.tv)` 公开 API `POST /v0/search/subjects` 根据 AniList 取得的日文原名搜索，只接受分类为动画、**原名完全一致且结果唯一**的 `name_cn`。标题来源标记为 **Bangumi 社区中文名称**，**绝不标记为官方**。遇到同名多条、日期明显不符、API 失效或中文名缺失则跳过，防止错误映射。
+3. 仍未找到的作品保留 AniList 日文原名，并明确标示“未核实可靠中文译名”。不使用 AI 机器直译来填补缺口。
+
+中文名称状态缓存在 `data/real/anime-zh-titles.json`；每轮最多向 Bangumi 查询 32 个新作品，查询间隔约 0.45 秒，未匹配条目至少 14 天后才重试。来源失败**不会清空此前已审校译名**。每个中文日历事件沿用原 AniList 生成器的 `UID`、`DTSTART`、`DTEND` 和事件状态，中文名称修改则使用单独持久化的 `revision` 追加到原有 `SEQUENCE` 上，使日历客户端能识别译名更新。日文原 ICS 产物不受影响。
+
+翻译来源属于元数据，`current-season.json` 新增 `title_zh`、`title_zh_source` 和 `title_zh_source_url`，供前端显示、检索和来源核对。由于有些番剧的官方中文译名在版权平台间不一致，应在人工审校说明中记录使用的中国大陆、台湾或香港译名来源；本阶段仅提供一个简体中文优先字段，后续可扩展区域版本。
+
+资料：
+- [Bangumi API OpenAPI](https://github.com/bangumi/server/blob/master/openapi/v0.yaml)（社区编辑的中文名称，不是官方发行机构）
+- [AniList GraphQL API](https://docs.anilist.co/guide/graphql/)
+
+**重要**：此次“中文”仅保证事件标题优先中文（有来源时）；不代表中国大陆视频平台上映时间、字幕组更新时刻或官方中文配音发布时间。时间仍来自 AniList 的日本播出时刻。
+
