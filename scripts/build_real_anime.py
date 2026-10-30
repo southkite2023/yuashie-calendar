@@ -11,6 +11,7 @@ from icalendar import Calendar
 from yuashie_calendar.anilist import fetch_window, normalize
 from yuashie_calendar.render import project, render
 from yuashie_calendar.season_shows import build_show_feeds
+from yuashie_calendar.zh_titles import enrich_chinese_titles, localize_package
 from yuashie_calendar.validation import MODES, read_json, validate_package
 
 
@@ -19,6 +20,9 @@ def main() -> None:
     parser.add_argument("--ledger", type=Path, default=Path("data/real/anime-events.json"))
     parser.add_argument("--show-registry", type=Path, default=Path("data/real/anime-shows.json"))
     parser.add_argument("--show-snapshot", type=Path, default=Path("dist/anime-shows-new.json"))
+    parser.add_argument("--zh-registry", type=Path, default=Path("data/real/anime-zh-titles.json"))
+    parser.add_argument("--zh-official", type=Path, default=Path("data/real/anime-official-zh.json"))
+    parser.add_argument("--zh-snapshot", type=Path, default=Path("dist/anime-zh-titles-new.json"))
     parser.add_argument("--output", type=Path, default=Path("dist/real-anime"))
     parser.add_argument("--snapshot", type=Path, default=Path("dist/anime-events-new.json"))
     args = parser.parse_args()
@@ -28,6 +32,13 @@ def main() -> None:
     episodes = fetch_window(now)
     package = normalize(episodes, prior, now)
     validate_package(package)
+
+    translations, stats = enrich_chinese_titles(
+        episodes, read_json(args.zh_registry), read_json(args.zh_official), now
+    )
+    localized = localize_package(package, translations)
+    args.zh_snapshot.parent.mkdir(parents=True, exist_ok=True)
+    args.zh_snapshot.write_text(json.dumps(translations, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     records = {}
     for event in package["events"]:
@@ -48,13 +59,30 @@ def main() -> None:
         target = args.output / f"{mode}.ics"
         target.write_bytes(calendar.to_ical())
 
+    localized_records = {}
+    for event in localized["events"]:
+        localized_records[event["id"]] = {
+            "event": event,
+            "published": {mode: project(event, mode) for mode in MODES},
+        }
+    localized_files = render(localized_records)
+    for mode in MODES:
+        calendar = Calendar.from_ical(localized_files[f"calendar/v1/anime/{mode}.ics"])
+        calendar["X-WR-CALNAME"] = f"Yuashie Calendar · 中文动漫播出 · {mode}"
+        if len(calendar.walk("VEVENT")) != len(package["events"]):
+            raise ValueError("Localized calendar count mismatch")
+        (args.output / f"{mode}.zh-CN.ics").write_bytes(calendar.to_ical())
+
     args.snapshot.parent.mkdir(parents=True, exist_ok=True)
     args.snapshot.write_text(json.dumps(package, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    registry, catalog = build_show_feeds(episodes, package, now, read_json(args.show_registry), args.output)
+    registry, catalog = build_show_feeds(episodes, package, now, read_json(args.show_registry), args.output,
+                                         translations=translations, localized=localized)
     args.show_snapshot.parent.mkdir(parents=True, exist_ok=True)
     args.show_snapshot.write_text(json.dumps(registry, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Current {catalog['season']} {catalog['year']}: {len(catalog['shows'])} selectable shows; "
           f"{len(registry['shows'])} stable per-title ICS paths.")
+    print(f"Chinese title lookups: {stats['attempted']}; newly matched/reviewed: "
+          f"{stats['matched_new_or_reviewed']}; lookup errors: {stats['lookup_errors']}")
     print(f"AniList checked: {len(episodes)} upcoming JP TV episodes; "
           f"{len(package['events'])} retained; start/span ICS generated.")
     print("This is an aggregator schedule, not guaranteed broadcaster-confirmed times.")
