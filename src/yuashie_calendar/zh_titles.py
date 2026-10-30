@@ -29,6 +29,11 @@ def normalized_title(value):
         return ""
     return " ".join(unicodedata.normalize("NFKC", value).casefold().split())
 
+def has_han_text(value):
+    return isinstance(value, str) and any(
+        "\u3400" <= ch <= "\u9fff" or "\U00020000" <= ch <= "\U0002fa1f" for ch in value
+    )
+
 def valid_title(value):
     return (
         isinstance(value, str) and bool(value.strip()) and
@@ -68,7 +73,7 @@ def lookup_bangumi(native_title, season_year, opener=urlopen):
             continue
         translated = subject.get("name_cn")
         subject_id = subject.get("id")
-        if not valid_title(translated) or type(subject_id) is not int or subject_id <= 0:
+        if not valid_title(translated) or not has_han_text(translated) or type(subject_id) is not int or subject_id <= 0:
             continue
         date = subject.get("date")
         if isinstance(date, str) and re.match(r"^\d{4}-\d{2}-\d{2}$", date):
@@ -153,7 +158,11 @@ def enrich_chinese_titles(raw, previous, reviewed, now, lookup=lookup_bangumi, m
             # Recheck unmatched names after two weeks; never hammer Bangumi
             # every time a scheduled GitHub workflow is triggered.
             previous_check = datetime.fromisoformat(old["checked_at"].replace("Z", "+00:00"))
-            if old["source"] != "none" or now.astimezone(timezone.utc) - previous_check < timedelta(days=14):
+            if old["source"] == "bangumi" and not has_han_text(old.get("zh_hans")):
+                # Cached name_cn sometimes contains English-only text.
+                # Retract that "Chinese" mapping, do not mislabel it.
+                candidate = None
+            elif old["source"] != "none" or now.astimezone(timezone.utc) - previous_check < timedelta(days=14):
                 continue
         elif old and old["source"] == "official":
             # Do not lose official names when a manual override is temporarily
