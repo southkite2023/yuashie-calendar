@@ -15,6 +15,7 @@ on:
       - 'config/lifecycle-stage.txt'
       - 'src/yuashie_calendar/anilist.py'
       - 'scripts/build_real_anime.py'
+      - 'src/yuashie_calendar/season_shows.py'
       - 'tests/**'
       - 'requirements*.txt'
       - 'pyproject.toml'
@@ -73,6 +74,8 @@ jobs:
         run: |
           python scripts/build_real_anime.py \
             --ledger data/real/anime-events.json \
+            --show-registry data/real/anime-shows.json \
+            --show-snapshot dist/anime-shows-new.json \
             --output dist/real-anime \
             --snapshot dist/anime-events-new.json
 
@@ -95,10 +98,11 @@ jobs:
         shell: bash
         run: |
           cp dist/anime-events-new.json data/real/anime-events.json
-          if ! git diff --quiet -- data/real/anime-events.json; then
+          cp dist/anime-shows-new.json data/real/anime-shows.json
+          if ! git diff --quiet -- data/real/anime-events.json data/real/anime-shows.json; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add data/real/anime-events.json
+            git add data/real/anime-events.json data/real/anime-shows.json
             git commit -m "Update bounded live anime schedule [skip ci]"
             git push origin HEAD:main
           fi
