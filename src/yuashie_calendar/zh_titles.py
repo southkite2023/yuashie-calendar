@@ -11,7 +11,7 @@ import json
 import re
 import time
 import unicodedata
-from datetime import timezone
+from datetime import datetime, timedelta, timezone
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
@@ -150,9 +150,11 @@ def enrich_chinese_titles(raw, previous, reviewed, now, lookup=lookup_bangumi, m
             candidate = {"zh_hans": manual["zh_hans"], "source": "official",
                          "source_url": manual["source_url"]}
         elif old and old["source"] != "official" and normalized_title(old["native_title"]) == normalized_title(native):
-            # A verified match or a completed no-result lookup stays cached.
-            # Rechecking source on every GitHub Action would be excessive.
-            continue
+            # Recheck unmatched names after two weeks; never hammer Bangumi
+            # every time a scheduled GitHub workflow is triggered.
+            previous_check = datetime.fromisoformat(old["checked_at"].replace("Z", "+00:00"))
+            if old["source"] != "none" or now.astimezone(timezone.utc) - previous_check < timedelta(days=14):
+                continue
         elif old and old["source"] == "official":
             # Do not lose official names when a manual override is temporarily
             # absent; corrections must be explicit and reviewed.
