@@ -145,3 +145,24 @@ def test_bangumi_english_only_name_cn_does_not_masquerade_as_chinese():
                           "name_cn": "Ghost Meets Gal!", "type": 2}])
     ))
     assert result is None
+
+
+def test_production_publisher_names_override_stale_mistranslations():
+    from pathlib import Path
+    reviewed = json.loads((Path(__file__).parents[1] / "data/real/anime-official-zh.json").read_text())
+    rows = [dict(RAW[0], media_id=t["anilist_id"], title=t["native_title"]) for t in reviewed["titles"]]
+    first, _ = enrich_chinese_titles(rows, EMPTY, OFFICIAL_EMPTY, NOW,
+        lookup=lambda *_: {"zh_hans": "她的朋友", "source": "bangumi", "source_url": "https://bgm.tv/subject/1"}, sleeper=lambda _: None)
+    fixed, _ = enrich_chinese_titles(rows, first, reviewed, NOW + timedelta(days=1),
+        lookup=lambda *_: pytest.fail("publisher mapping must win"), sleeper=lambda _: None)
+    assert {e["anilist_id"]: e["zh_hans"] for e in fixed["entries"]} == {206401: "FX战士久留美", 211877: "女友的朋友"}
+    assert all(e["revision"] == 2 for e in fixed["entries"])
+    assert all(e["source"] == "official" for e in fixed["entries"])
+
+
+def test_translation_cannot_be_reused_for_different_original_or_without_source():
+    from yuashie_calendar.zh_titles import title_for_entry
+    entry = {"native_title": "彼女の友達", "zh_hans": "女友的朋友", "source": "official", "source_url": "https://www.kadokawa.com.tw/products/9786263781962"}
+    assert title_for_entry("別作品", entry) == "別作品"
+    assert title_for_entry("彼女の友達", dict(entry, source_url=None)) == "彼女の友達"
+    assert title_for_entry("彼女の友達", entry) == "女友的朋友"

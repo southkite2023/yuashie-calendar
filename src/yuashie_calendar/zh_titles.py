@@ -209,7 +209,11 @@ def enrich_chinese_titles(raw, previous, reviewed, now, lookup=lookup_bangumi, m
     }, {"attempted": attempted, "matched_new_or_reviewed": matched, "lookup_errors": errors}
 
 def title_for_entry(native, entry):
-    if entry and valid_title(entry.get("zh_hans")):
+    if (entry and entry.get("source") in ("official", "bangumi")
+            and isinstance(entry.get("source_url"), str)
+            and entry["source_url"].startswith("https://")
+            and normalized_title(entry.get("native_title")) == normalized_title(native)
+            and valid_title(entry.get("zh_hans")) and has_han_text(entry["zh_hans"])):
         return entry["zh_hans"]
     return native
 

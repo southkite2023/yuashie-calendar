@@ -1,4 +1,19 @@
 {
   "schema_version": 1,
-  "titles": []
+  "titles": [
+    {
+      "anilist_id": 206401,
+      "native_title": "FX戦士くるみちゃん",
+      "zh_hans": "FX战士久留美",
+      "source_url": "https://www.kadokawa.com.tw/products/9786264351447",
+      "evidence_note": "2026-11-03 核对台湾角川原作漫画正式出版名「FX戰士久留美」；本站简体显示只作戰→战字形转换，不宣称动画大陆授权译名。"
+    },
+    {
+      "anilist_id": 211877,
+      "native_title": "彼女の友達",
+      "zh_hans": "女友的朋友",
+      "source_url": "https://www.kadokawa.com.tw/products/9786263781962",
+      "evidence_note": "2026-11-03 核对台湾角川原作漫画正式出版名「女友的朋友」；与Bangumi动画条目647220一致，不宣称动画大陆授权译名。"
+    }
+  ]
 }
